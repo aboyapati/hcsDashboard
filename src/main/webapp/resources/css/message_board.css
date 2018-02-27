@@ -1,0 +1,282 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.schedule_lab_icon{
+	background-image: url("../images/message_board/reserve a lab_default.png");
+	height: 35px;
+	width: 180px;
+	float: right;
+	margin-right: 65px;
+}
+
+.schedule_lab_icon:HOVER {
+	background-image: url("../images/message_board/reserve a lab_selected.png");
+	cursor: pointer;
+}
+
+.table_tabs{
+	list-style: none;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	color: #7694b7;
+	margin-bottom: 49px;
+	margin-left:-8.5156px;
+	margin-top: -45px;
+	
+}
+
+.table_tab_unselected{
+	background-image: url("../images/message_board/unselected tab _outline box.png");
+	background-repeat:no-repeat;
+	height: 37px;
+	width: 180px;
+	float: left;
+	margin-right: -1px;
+	padding-bottom: 1px;
+	padding-right:1px;
+	display:block;
+}
+
+.table_tab_selected{
+	background-image: url("../images/message_board/selected_outline box.png");
+	background-repeat:no-repeat;
+	height: 37px;
+	width: 183px;
+	float: left;
+	margin-right: -1px;
+	padding-bottom: 1px;
+	display:block;
+}
+
+.table_tab_data{
+	height: 35px;
+	width: 180px;
+	float: left;
+	display: inline;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	font-size:15px;
+	margin-top:10px;
+	margin-left:9px;
+	margin-right: 10px;
+}
+.table_tab_data:ACTIVE, .table_tab_data:FOCUS {  /* To remove the dotted border around links in FF and IE */
+	
+	 border: none;
+    outline: none;
+   
+}
+
+.outline_border{
+	background-image: url("../images/message_board/Dashboard_gray outline box.png");
+	background-repeat:no-repeat;
+	margin-left:33px;
+	width:960px;
+	height:667px;
+	margin-top:-60px;
+	position: relative;
+}
+
+.msg_board_table{
+	padding-top:47px;
+	padding-left:15px;
+}
+
+.msg_board_table_body{
+	
+	margin-left: 36px;
+	margin-right:0px;
+	width: 90%;
+	
+}
+
+.msg_board_th{
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	font-size: 16px;
+	color: #7694b7;
+	line-height: 18px;
+	padding-bottom: 10px;
+}
+
+.msg_board_td{
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	/* font-family: 'Source Sans Pro-Regular'; */
+	font-size: 14px;
+	color: #7694b7;
+	line-height: 30px;
+}
+
+.msg_board_tr{
+	width:881;
+	height:30;
+}
+
+
+
+.tekvfooter1{
+	background-image: url("../images/footer.png");
+	height: 50px;
+	width:	10260px;
+	margin-left:0px;
+	margin-top:-1px;
+}
+
+
+
+
+
+/* 
+-----------------------------------------
+
+	Scrollable related CSS 
+	
+------------------------------------------
+*/
+.msg_board_table .scrollableContainer {
+    height: 515px;
+    width: 930px;
+    position: relative;
+    padding-top: 35px;
+    overflow: hidden;
+}
+.msg_board_table .scrollableContainer .headerSpacer {
+/*    border: 1px solid #d5d5d5;*/
+	
+	border:1px solid #d5d5d5;
+	border-left-width: 0;
+ 	border-right-width: 0;
+ 	border-top-width: 0;
+	border-bottom-width:2px;
+    
+    
+   
+}
+.msg_board_table .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+.msg_board_table .scrollableContainer th .orderWrapper .order {
+    font-size: 14px;
+    color: #BDBDBD;
+}
+.msg_board_table .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}
+
+.msg_board_table_body th:nth-child(1) .orderWrapper {
+ top :13px;
+ right: 120px;
+}
+.msg_board_table_body th:nth-child(2) .orderWrapper {
+ top :13px;
+ right: 120px;
+}
+
+
+.msg_board_table .scrollArea {
+	margin-top:0px;
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+ /*   border: 1px solid #d5d5d5; */
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned heade	rs within 
+    -webkit-overflow-scrolling: touch;  */
+}
+.msg_board_table .scrollArea table {
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-bottom: 0;
+    width: 881px;
+    border: none;
+     border-collapse: separate;	
+	border-spacing: 0 16px;
+    /*border-collapse: separate;*/
+}
+.msg_board_table .scrollArea table th {
+    padding: 0 !important;
+    border: none !important;
+    min-width: 20px;
+}
+.msg_board_table .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    height: 36px;
+    line-height: 36px;
+}
+
+.msg_board_table .scrollArea table th .box {
+  /*  padding: 0 8px;
+    padding-right: 11px;    /*  order icon width*/
+ /*   border-left: 1px solid #ddd; */
+}
+
+/*  to hack fix firefox border issue    */
+@-moz-document url-prefix() {
+    .scrollArea table th .box{
+    /*    border-right: 1px solid #ddd; */
+        border-left: none;
+    }
+}
+
+.msg_board_table .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.msg_board_table .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+.msg_board_table .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+.msg_board_table .scrollArea table tbody tr td:first-child {
+    border-left: none;
+}
+.msg_board_table .scrollArea table tbody tr td:last-child {
+    border-right: none;
+}
+.msg_board_table .scrollArea table tbody tr:first-child td {
+    border-top: none;
+}
+.msg_board_table .scrollArea table tbody tr:last-child td {
+  /*  border-bottom: 2px solid #ddd; */
+}
+.msg_board_table .scrollArea table tbody tr td {
+ /*   border-bottom: 1px solid #ddd; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
+.msg_board_table .scrollableContainer .scaler {
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.msg_board_table .scrollableContainer th .resize-rod {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 4px;
+    height: 100%;
+}
+
+.msg_board_table .scrollable-resizing .scrollableContainer {
+    cursor: col-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

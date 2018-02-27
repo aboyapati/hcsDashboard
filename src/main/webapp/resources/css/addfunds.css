@@ -1,0 +1,256 @@
+@CHARSET "ISO-8859-1";
+
+/*-----------ADD FUNDS CSS----------*/
+
+
+
+.add_funds_heading{
+	display:block;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	color:rgb(111,111,111);
+	margin-top: 37px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+.add_funds_text{
+	float:left;
+	text-align:left;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color:rgb(162,162,162);
+	width:120px;
+	padding-top: 6px;
+}
+
+.deposit_cash_box_image{
+	float:left;
+	background-image: url("../images/add_funds/input box.png");
+	background-repeat: no-repeat;
+	width:250px;
+	height:37px;
+	margin-left: 15px;
+	padding-bottom: 24px;
+	margin-bottom: 25px;
+}
+
+.deposit_cash_box{
+	width:230px;
+	height:28px;
+	margin-top: 4px;
+	margin-left: 15px;
+	border: 0px;
+	padding: 0px;
+	background: transparent;
+	color:rgb(162,162,162);
+}
+
+*:focus {
+    outline: 0;
+}
+
+.current_balance_box_image{
+	float:left;
+	background-image: url("../images/add_funds/current bal_box.png");
+	background-repeat: no-repeat;
+	width:250px;
+	height:37px;
+	margin-left: 15px;
+	padding-bottom: 24px;
+	margin-bottom: 22px;
+	color:rgb(162,162,162);
+}
+
+.current_balance_box{
+	
+	width:230px;
+	height:28px;
+	margin-top: 4px;
+	margin-left: 15px;
+	border: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+
+*:focus {
+    outline: 0;
+}
+
+.add_funds_divider{
+	float: left;
+	background-image: url("../images/add_funds/divider.png");
+    background-repeat: no-repeat;
+	border:1px solid #C6C6C6;
+	/*border-bottom-width:2px;*/
+	display:block;
+    width: 387px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    
+}
+
+.credit_details_text{
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color:rgb(129,129,129);
+	font-size: 14px;
+	margin-top: 24px;
+}
+
+.card_input_box_image{
+	background-image: url("../images/add_funds/name on card_input box.png");
+	background-repeat: no-repeat;
+	width:234px;
+	height:37px;
+	margin-left: 35px;
+	
+}
+
+.card_input_box{
+	width:225px;
+	height:29px;
+	margin-top: 4px;
+	margin-left: 4px;
+	border: 0px;
+	padding: 0px;
+	color:rgb(162,162,162);
+}
+
+.expiry_box_image{
+	
+	float:left;
+	background-image: url("../images/add_funds/month_date box.png");
+	background-repeat: no-repeat;
+	width:57px;
+	height:37px;
+	margin-left: 15px;
+	padding-bottom: 24px;
+	margin-bottom: 25px;
+}
+
+.expiry_box{
+	width:47px;
+	height:29px;
+	margin-top: 4px;
+	margin-left: 4px;
+	border: 0px;
+	color:rgb(162,162,162);
+}
+
+.cvc_box_image{
+	
+	float:left;
+	background-image: url("../images/add_funds/card code_input box.png");
+	background-repeat: no-repeat;
+	width:119px;
+	height:37px;
+	margin-left: 15px;
+	padding-bottom: 24px;
+	margin-bottom: 25px;
+}
+
+.cvc_box{
+	width:84px;
+	height:28px;
+	margin-top: 4px;
+	margin-left: 4px;
+	border: 0px;
+	color:rgb(162,162,162);
+}
+
+.secure_image{
+	float:left;
+	text-align:left;
+	font-size: 14px;
+	width:35px;
+	padding-top: 6px;
+	background-image: url("../images/add_funds/secure lock icon.png");
+	background-repeat: no-repeat;
+	height:29px;
+	margin-top: 16px;
+}
+
+.deposit_funds_button{
+	background-image: url("../images/add_funds/deposit funds button.png");
+    background-repeat: no-repeat;
+    width : 114px;
+    height :40px;
+    border : none;
+    color : transparent;
+    border: 0px;
+    float:right;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	cursor: pointer;
+}
+
+
+
+/*-----------------ACCOUNT BALANCE----------------*/
+
+.balance_heading{
+	display:block;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	color:rgb(111,111,111);
+	margin-top: 37px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-bottom: 35px;
+}
+
+.account_balance_box_image{
+	background-image: url("../images/account_balance/current balance_bar.png");
+    background-repeat: no-repeat;
+    width : 616px;
+    height :41px;
+    margin-left: 25px;
+}
+
+.account_balance_box_text{
+	width : 200px;
+    height :32px;
+    margin-top:5px;
+    margin-bottom: 4px;
+    margin-left: 15px;
+	float: left;
+	border: 0px;
+	background: transparent;
+	color:rgb(162,162,162);
+}
+
+.account_balance_box_number{
+	width : 100px;
+    height :32px;
+    margin-top:5px;
+    margin-bottom: 4px;
+    margin-right: 15px;
+    padding: 0px;
+	float: right;
+	border: 0px;
+	background: transparent;
+	color:rgb(162,162,162);
+	text-align: right;
+}
+
+.account_bal_add_funds_button{
+	background-image: url("../images/account_balance/Add Funds_button.png");
+    background-repeat: no-repeat;
+    width : 92px;
+    height :40px;
+    border : none;
+    color : transparent;
+    border: 0px;
+    float:right;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	cursor: pointer;
+}
+

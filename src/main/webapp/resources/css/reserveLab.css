@@ -1,0 +1,485 @@
+.popup {
+	position:absolute;            
+	width:960px;       
+	height:723px;
+	background-image: url("../images/reserveLabCatalog/modal screen.png");
+	background-repeat: no-repeat;   
+  
+}
+.popup p{
+	margin:0;
+}
+
+.popup .title{
+	padding:0;
+	margin:0;
+	margin-left:26px;
+	margin-top:37px;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:18px;	
+	color:#6F6F6F;	
+}
+
+#scrollArea {
+	width:926px;
+    height: 465px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.using_buttons input{
+	border:0;
+	padding:0;
+	outline:0;
+	background-color:white;
+}
+
+ 	/* --------Popup Window Header Area----------*/  
+ 	
+.popup_header{
+
+	width:960px;
+	height:102px;
+	border-bottom:1px solid #C6C6C6;
+
+}
+.popup_header p{
+	float:left;
+	padding:0;
+	margin-left:26px;
+	margin-top:37px;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:18px;	
+	color:#6F6F6F;	
+}
+
+ 	/* --------Popup Window Body Area----------*/    
+
+.popup_body{
+	float:left;
+}
+
+
+ 	/* --------Popup Window Right Area at rightpanel.css----------*/    
+ 	
+
+ 	/* --------Popup Window Left area----------*/    
+
+.popup_left{
+	float:left;
+	background-image: url("../images/reserveLabProduct/left panel.png");
+	background-repeat: no-repeat;
+	width:222px;
+	height:621px;
+	display:inline;
+}
+
+.popup_left .title{
+	margin-left:26px;
+	margin-top:37px;
+}
+
+
+ 	/* --------Popup Window Footer----------*/      
+
+.popup_footer{
+	background-image: url("../images/reserveLabProduct/bottom panel.png");
+	background-repeat: no-repeat;
+	width:959px;
+	height:103px;
+	position:absolute;
+	bottom:0;
+}
+
+.popup_footer input{
+	float:left;
+	border:0;
+	padding:0;
+	outline:0;
+	background-color:white;
+}
+.popup_footer input:HOVER{
+
+}
+.popup_footer a{
+	float:left;
+	display:block;
+	width:90px;
+	height:40px;
+}
+.popup_footer .exit_button{
+	background-image: url("../images/reserveLabCatalog/exit button.png");
+	background-repeat: no-repeat;
+	margin-left:73px;
+	float: left;
+    width:95px;
+    height: 40px;
+    margin-top:26px;
+	position:relative;
+	bottom:0;
+	cursor: pointer;
+}
+
+.popup_footer .back_button{
+	background-image: url("../images/reserveLabCatalog/back button.png");
+	background-repeat: no-repeat; 	
+	margin-left:89px;
+	margin-top:26px;
+	width:92px;
+	height:40px;
+	cursor: pointer;
+}
+
+.popup_footer .footer_reserve_button{
+	background-image: url("../images/reserveLabProduct/reserve button.png");
+	background-repeat: no-repeat; 
+	float:right;
+	margin-right:50px;
+	margin-top:26px;
+	width:138px;
+	height:40px;	
+	cursor: pointer;
+	
+}
+
+
+	/* --------reserve form----------*/
+
+.reserve_form{
+	margin-left:77px;
+}
+				
+.reserve_form .title{
+	margin-left:-51px;
+	margin-top:37px;
+	margin-bottom:40px;
+}
+	
+.reserve_form form{
+
+	margin:0;
+}	
+.reserve_form table{
+	position:absolute;
+	font-size:16px;
+	color:#a2a2a2;
+	font-family: "Source Sans Pro";
+	font-weight:400;
+	white-space: nowrap;
+	border-collapse: collapse;
+	width:450px;
+}	
+.reserve_form table p{
+font-weight:600;
+}	
+
+.reserve_form table tr td{
+	line-height:52px;
+	border:0;
+	padding:0;
+}
+
+.reserve_form .input_box{
+	background-image: url("../images/reserveLabProduct/input box.png");
+	background-repeat: no-repeat;
+	background-color:transparent;
+	width:281px;
+	height:36px;	
+	border:0;
+	padding:1px 8px;	
+	outline:0;
+	color:#9A9A9A;	
+	line-height: 34px;	
+	text-overflow:ellipsis;
+}
+
+.reserve_form .dropdown_box{
+	background-image: url("../images/reserveLabProduct/dropdown box.png");
+	background-repeat: no-repeat;
+	background-color:transparent;
+	width:281px;
+	height:36px;
+	border:0;
+	outline:0;
+	color:#9A9A9A;	
+	padding:1px 40px 1px 5px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 	
+   	cursor: pointer;
+   	font-size:16px;
+}
+.reserve_form select[disabled]{
+	
+	color:#9A9A9A;	
+}
+
+.reserve_form .connection_type{
+	background-image: url("../images/reserveLabProduct/profile connection dropdown button.png");
+	background-repeat: no-repeat;
+	width:150px;
+	height:30px;
+	border:0;
+	outline:0;	
+	color:#a2a2a2;	
+	padding:1px 40px 1px 5px;
+	line-height: normal;	
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 	
+   	cursor: pointer;
+   	font-size:16px;
+}
+	
+.reserve_form .message{
+	padding-top:4px;
+	font-weight:400;
+	font-size:14px;
+	color:#9A9A9A;
+	margin:0;
+}	
+
+.reserve_form select::-ms-expand {
+    display: none;
+}
+
+/*-----------datepicker-------------------*/
+
+.calendar input {
+	background-image: url("../images/reserveLabProduct/date box.png");
+	background-repeat: no-repeat;
+	background-color:transparent;
+	width:89px;
+	height:36px;
+	padding:0;
+	border:0;
+	text-align: center;
+}
+.calendar .to_tag{
+	margin-left:40px;
+	margin-right:4px;
+}
+.ui-datepicker{
+	width:209px;
+	padding:0 1px;
+	clear:both;
+}
+.ui-datepicker-header{
+	background-color: #f6f6f6;
+    background-image: -moz-linear-gradient(top,  #f6f6f6 0%, #eaeaea 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#eaeaea));
+    background-image: -webkit-linear-gradient(top,  #f6f6f6 0%,#eaeaea 100%);
+    background-image: -o-linear-gradient(top,  #f6f6f6 0%,#eaeaea 100%);
+    background-image: -ms-linear-gradient(top,  #f6f6f6 0%,#eaeaea 100%);
+    background-image: linear-gradient(top,  #f6f6f6 0%,#eaeaea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f6f6', endColorstr='#eaeaea',GradientType=0 );
+	border:0;
+}
+.ui-datepicker .ui-datepicker-buttonpane{
+	border:0;	
+	padding-bottom:8px;
+	font-size:14px;
+	color:#6F6F6F;	
+}
+
+.ui-datepicker .ui-datepicker-buttonpane button { 
+	display:none;
+}
+
+.ui-datepicker .ui-datepicker-title{
+	width:150px;
+	font-size:14px;
+	margin:0 auto;
+	font-weight: 400;
+}
+
+.ui-datepicker table{
+	width:100%;
+	font-size: 14px;
+}
+.ui-datepicker th{
+	padding: 5px 1px; 
+	background-color: #ebebeb;
+	font-weight: 400;
+	border-bottom: 1px solid #C6C6C6;
+}
+
+.ui-widget-content .ui-state-default{
+	background:none;
+	border-color: white;
+}
+
+.ui-widget-content .ui-state-highlight{
+	background:none;
+	border:1px solid yellow !important;
+}
+
+.highlight-today { 
+	background-color: salmon !important; 
+}
+
+.ui-widget-content .ui-state-active{
+	background: #6eafbf;
+    -webkit-box-shadow: inset 0px 0px 10px 15px r#6eafbf;
+    -moz-box-shadow: inset 0px 0px 10px 15px #6eafbf;
+    box-shadow: inset 0px 0px 10px 15px #6eafbf;
+    color: white;
+    text-shadow: 0px 1px 0px #4d7a85;
+    filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+}
+.ui-widget-content .ui-state-hover{
+	background-color:#cbc5c2;
+    background-image: -moz-linear-gradient(top,  #cbc5c2 0%, #a99f9a 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cbc5c2), color-stop(100%,#a99f9a));
+    background-image: -webkit-linear-gradient(top,  #cbc5c2 0%,#a99f9a 100%);
+    background-image: -o-linear-gradient(top,  #cbc5c2 0%,#a99f9a 100%);
+    background-image: -ms-linear-gradient(top,  #cbc5c2 0%,#a99f9a 100%);
+    background-image: linear-gradient(top,  #cbc5c2 0%,#a99f9a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cbc5c2', endColorstr='#a99f9a',GradientType=0 );
+    opacity:.65;
+}
+
+
+
+.ui-widget-header .ui-icon{
+	opacity:.35;
+}
+
+.ui-datepicker-trigger{
+	position:absolute;
+	margin-top:5px;
+	margin-left:3px;
+	cursor:pointer;
+}
+.k-icon{
+	float:left;
+	background: transparent url("../images/reserveLabProduct/calendar icon.png") no-repeat 0 50%;
+	background-repeat: no-repeat;
+	width:25px;
+	height:24px;	
+	margin-top:5px;
+	margin-left:3px;
+}
+
+/******************Multiple Select Dropdown************************/
+span.hide-native-select {
+	position: relative
+}
+
+span.hide-native-select select {
+	border: 0 !important;
+	clip: rect(0, 0, 0, 0) !important;
+	height: 1px !important;
+	margin: -1px -1px -1px -3px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	left: 50%;
+	top: 30px
+}
+
+.multiselect-container {
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width:281px;
+}
+
+.multiselect-container .input-group {
+	margin: 5px
+}
+
+.multiselect-container>li {
+	padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 3px 20px 3px 20px;
+	height: 100%;
+	font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+
+.multiselect-container>li>a {
+	padding: 0;
+	color: #9A9A9A;
+    font-size: 16px;
+}
+
+.multiselect-container>.active>a {
+    background-color: dodgerblue!important;
+}
+
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 3px 20px 3px 40px
+}
+
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox
+	{
+	margin: 0
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio
+	{
+	padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+	.form-inline .multiselect-container li a label.radio input[type=radio]
+	{
+	margin-left: -20px;
+	margin-right: 0
+}
+.multiselect.btn{
+	background-image: url("../images/reserveLabProduct/dropdown box.png")!important;
+	background-repeat: no-repeat;
+	background-color:transparent!important;
+	width:281px;
+	height:36px;
+	border:none!important;
+	color:#9A9A9A!important;	
+	padding:1px 40px 1px 5px;
+	line-height: normal;
+   	font-size:16px;	
+   	text-align:left;
+   	box-shadow:none!important;
+}
+
+.multiselect.btn .caret{
+	display:none;
+}
+
+.multiselect-selected-text{
+	width: 236px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

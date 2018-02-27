@@ -1,0 +1,628 @@
+@CHARSET "UTF-8";
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+ background-color: #E3E9F0 !important;
+}
+
+.blockOverlay{	
+	opacity:0!important;
+}
+
+/* Schedule a Lab icon */
+.schedule_lab_icon{
+	background-image: url("../images/lablist/reserve a lab_default.png");
+	height: 35px;
+	width: 180px;
+	float: right;
+	margin-right: 65px;
+}
+
+.schedule_lab_icon:HOVER {
+	background-image: url("../images/lablist/reserve a lab_selected.png");
+	cursor: pointer;
+}
+
+/* Tabs of 'Virtual Labs', 'Lab schedule' and 'Message Board' */
+
+.table_tabs{
+	list-style: none;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	color: #203c66;
+	margin-bottom: 49px;
+	margin-left:-8.5156px;
+	margin-top: -45px;
+}
+
+.table_tab_unselected{
+	background-image: url("../images/message_board/unselected tab _outline box.png");
+	background-repeat:no-repeat;
+	height: 37px;
+	width: 180px;
+	float: left;
+	margin-right: -1px;
+	padding-bottom: 1px;
+	padding-right:1px;
+	display:block;
+}
+
+.table_tab_selected{
+	background-image: url("../images/message_board/selected_outline box.png");
+	background-repeat:no-repeat;
+	height: 37px;
+	width: 182px;
+	float: left;
+	margin-right: -1px;
+	padding-bottom: 1px;
+	display:block;
+}
+
+.table_tab_data{
+	height: 35px;
+	width: 180px;
+	float: left;
+	display: inline;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	font-size:15px;
+	margin-top:10px;
+	margin-left:9px;
+	margin-right: 10px;
+}
+
+.table_tab_data:ACTIVE, .table_tab_data:FOCUS {  /* To remove the dotted border around links in FF and IE */
+	border: none;
+	outline: none;
+}
+
+/*Grey outline box */
+.outline_border{
+	background-image: url("../images/message_board/Dashboard_gray outline box.png");
+	background-repeat:no-repeat;
+	margin-left:33px;
+	width:960px;
+	height:667px;
+	margin-top:-60px;
+	position: relative;
+}
+
+/* My Reservations and Company reservations tabs blocks and their inner properties*/
+.reservations_select_tabs{
+	padding-right:5px;
+	padding-top:19px;
+}
+	
+.reservations_select_tabs p{   
+	margin:0;  
+	text-align:right;  /*position of show?*/
+	padding-top:8px;
+	height:26px;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	color: #203c66;
+}  
+ 
+.reservations_select_tabs ul{   
+    padding:0 0 0px 19px;  /*left side width with "show"? */
+    float: right;
+    height:31px;		/* size of the 2 buttons?* 142*33?*/
+	list-style-type: none;
+    margin:0;  
+    margin-right:24px;
+    margin-bottom:0;   
+}  
+
+.reservations_select_tabs li.company{
+	height: 33px;
+	width: 142px;
+	float: right;
+	margin-left:-1px;
+	background-image: url("../images/lablist/Company Reservations button_default.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ 
+.reservations_select_tabs li.companySelected
+{
+	height: 33px;
+	width: 142px;
+	float: right;
+	margin-left:-1px;
+ 	background-image: url("../images/lablist/Company Reservations button_selected.png");
+ 	background-repeat: no-repeat;
+ 	cursor: pointer;
+}	
+
+.reservations_select_tabs li.my{
+	height: 33px;
+	width: 141px;
+	float: right;
+	background-image: url("../images/lablist/My Reservations button_default.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ 
+.reservations_select_tabs li.mySelected{
+ 	height: 33px;
+	width: 141px;
+	float: right;
+	background-image: url("../images/lablist/My Reservations button_selected.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ 
+.reservations_select_tabs li.internal{
+	height: 33px;
+	width: 141px;
+	float: right;
+	background-image: url("../images/lablist/internal_reservation_default.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ 
+.reservations_select_tabs li.internalSelected{
+ 	height: 33px;
+	width: 141px;
+	float: right;
+	background-image: url("../images/lablist/internal_reservation_selected.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ 
+.reservations_select_tabs li.external{
+	height: 33px;
+	width: 142px;
+	float: right;
+	margin-left:-1px;
+	background-image: url("../images/lablist/external_reservation_default.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+ 
+.reservations_select_tabs li.externalSelected
+{
+	height: 33px;
+	width: 142px;
+	float: right;
+	margin-left:-1px;
+ 	background-image: url("../images/lablist/external_reservation_selected.png");
+ 	background-repeat: no-repeat;
+ 	cursor: pointer;
+}
+	
+/* Virtual lab table container */
+.displayVirtualLab {   
+ 	padding-left:9px;
+ 	margin-top:5px;
+}  
+
+/*Virtual Lab Company Reservations container*/  
+#companyReservations{
+	padding-left:2px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+ 
+/*Virtual Lab My Reservations container*/
+#myReservations{
+ 	padding-left:2px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+ 
+/*Virtual Lab table properties*/
+ 
+.vlab_inner_table{
+	margin-left: 0px;
+	padding-top:0px;
+}
+
+.vlab_inner_table_body{
+	border-collapse: collapse; 
+	margin-left: 0px;
+	margin-right:0px;
+	width: 98%;
+}
+
+.vlab_table_th{
+	border-bottom: 1px solid #203c66;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	font-size: 14px;
+	color: #203c66;
+	line-height: 18px;
+	padding-bottom: 10px;
+	text-align: center;
+	cursor: default;
+}
+
+.vlab_table_td{
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	/* font-family: 'Source Sans Pro-Regular'; */
+	font-size: 14px;
+	color: #203c66;
+	line-height: 50px;
+}
+
+.vlab_inner_table tbody tr:nth-child(1) td {
+	/* padding-top: 20px;
+	padding-bottom: 20px; */	
+}
+
+.vlab_inner_table .borderless_tr td{
+	/*line-height: 35px;*/
+	line-height: 36px;
+}
+
+/*Footer*/
+.tekvfooter1{
+	background-image: url("../images/lablist/footer.png");
+	height: 50px;
+	width:	960px;
+	margin-left: 32px;
+	margin-top: -1px;
+}
+
+/*-------------------------------*/
+
+.state_icon_on{
+	background-image: url("../images/lablist/on button.png");
+	background-repeat: no-repeat;
+	width:44px;
+	height:25px;
+	padding-right:15px;
+	padding-left:25px;
+	cursor: pointer;
+}
+
+.state_icon_off{
+	background-image: url("../images/lablist/off button.png");
+	background-repeat: no-repeat;
+	width:44px;
+	height:25px;
+	padding-right:15px;
+	cursor: pointer;
+}
+
+.prpfile_access{
+	background-image: url("../images/lablist/connection profile and access common button.png");
+	background-repeat: no-repeat;
+	height:35.5px;
+	width:195px;
+	display: block;
+	float: left;
+}
+
+.profileConnection_dropdown{
+	background-image: url("../images/lablist/profile connection dropdown button.png");
+	background-repeat: no-repeat;
+	height:30px;
+	width:150px;
+	margin-left:2px; 
+	padding-left:0px;
+	padding-right:32px;
+	display:block;
+	float: left;
+	margin-top:3px;
+	cursor: pointer;
+	border: 0px;
+	line-height: 20px;
+}
+
+.access_icon{
+	background-image: url("../images/lablist/access icon.png");
+	background-repeat: no-repeat;
+    height:14px;
+    width:14px;
+    margin-top: 12px;
+    margin-left: 164.5px;
+    display:block;
+    cursor: pointer;
+}
+
+.extend_icon{
+	background-image: url("../images/lablist/extend icon.png");
+	background-repeat: no-repeat;
+    margin-top: 5px;
+    height:20px;
+    width:16px;
+    margin-left:3px;
+    cursor: pointer;
+}
+
+.cancel_icon{
+	background-image: url("../images/lablist/cancel icon.png");
+	background-repeat: no-repeat;
+    height:15px;
+    width:15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.admin_dropdown{
+	background-image: url("../images/lablist/Admin_dropdown button.png");
+	background-repeat: no-repeat;
+    width :160px;
+    height:35.5px;
+	display: block;
+	float: left;
+    padding-left: 2px;
+    padding-right:32px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.bu_icon_backup{
+	background-image: url("../images/lablist/Backup icon.png");
+	background-repeat: no-repeat;
+    margin-top: 5px;
+    margin-left:5px;
+    height:20px;
+}
+
+.bu_icon_none{
+	background-image: url("../images/lablist/dash.png");
+	background-repeat: no-repeat;
+	margin-left:5px;
+    margin-top: 10px;
+    height:20px;
+}
+
+.open_icon{
+	background-image: url("../images/lablist/open blue button.png");
+	background-repeat: no-repeat;
+	width:40px;
+    height:25px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.open_icon_grey{
+	background-image: url("../images/lablist/open_grey button.png");
+	background-repeat: no-repeat;
+	width:40px;
+    height:25px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.down_arrow{
+	background-image: url("../images/lablist/down arrow.png");
+	background-repeat: no-repeat;
+    height:15px;
+    width:10px;
+	margin-top:10px;
+}
+
+/* 
+-----------------------------------------
+	Scrollable related CSS 
+------------------------------------------
+*/
+
+.displayVirtualLab .scrollableContainer {
+    height: 525px;
+    position: relative;
+    padding-top: 35px;
+    overflow: hidden;
+    width:940px;
+}
+
+.displayVirtualLab .scrollableContainer .headerSpacer {
+	/*    border: 1px solid #d5d5d5;*/
+    border:1px solid #7694b7;
+	border-left-width: 0;
+ 	border-right-width: 0;
+ 	border-top-width: 0;
+	border-bottom-width:2px;
+   
+ /*   border-bottom-color: #bbb;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    right: 0;
+    left: 0; */
+}
+
+.displayVirtualLab .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+
+.displayVirtualLab .scrollableContainer th .orderWrapper .order {
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.displayVirtualLab .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}
+
+.displayVirtualLab th:nth-child(2) .orderWrapper {
+	top :12px;
+}
+
+.displayVirtualLab th:nth-child(4) .orderWrapper {
+	top :13px;
+	right:7.5px;
+}
+
+.displayVirtualLab .scrollArea {
+	margin-top:0px;
+    height: 448px;
+    overflow-x: hidden;
+    overflow-y: auto;
+ /*   border: 1px solid #d5d5d5; */
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned heade	rs within 
+    -webkit-overflow-scrolling: touch;  */
+}
+
+.displayVirtualLab .scrollArea table {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 0;
+    width:920px;
+    /*width: 100%;*/
+    border: none;
+    margin-left: 2px;
+    margin-top: 0px;
+    border-collapse: separate;	
+	border-spacing: 0 16px;
+    /*border-collapse: separate;*/
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.displayVirtualLab .scrollArea table th {
+    padding: 0 !important;
+    border: none !important;
+    min-width: 20px;
+}
+
+.displayVirtualLab .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    height: 36px;
+    line-height: 36px;
+}
+
+.displayVirtualLab .scrollArea table th .box {
+ /*   padding: 0 8px;
+    padding-right: 11px;    /*  order icon width*/
+ /*   border-left: 1px solid #ddd; */
+}
+
+/*  to hack fix firefox border issue    */
+@-moz-document url-prefix() {
+    .scrollArea table th .box{
+    /*    border-right: 1px solid #ddd; */
+        border-left: none;
+    }
+}
+
+.displayVirtualLab .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.displayVirtualLab .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+
+.displayVirtualLab .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+
+.displayVirtualLab .scrollArea table tbody tr td:first-child {
+    border-left: none;
+}
+
+.displayVirtualLab .scrollArea table tbody tr td:last-child {
+    border-right: none;
+}
+
+.displayVirtualLab .scrollArea table tbody tr:first-child td {
+    border-top: none;
+}
+
+.displayVirtualLab .scrollArea table tbody tr:last-child td {
+  /*  border-bottom: 2px solid #ddd; */
+}
+
+.displayVirtualLab .scrollArea table tbody tr td {
+ /*   border-bottom: 1px solid #ddd; */
+  	white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     background-color: white;
+}
+
+.displayVirtualLab .scrollableContainer .scaler {
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.displayVirtualLab .scrollableContainer th .resize-rod {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 4px;
+    height: 100%;
+}
+
+.displayVirtualLab .scrollable-resizing .scrollableContainer {
+    cursor: col-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/*
+// Ticket: 35426 - item 3
+// Desc: No way to find lab detail information on dashboard
+// Fix: Display vendor and equipment on hover of lab name
+// Author: Lei Song
+*/
+
+.lab_info_hover {
+    display:none;
+    position:fixed;
+    background-color: white;
+    width: 180px;
+    height: 48px;
+	padding:5px;
+    text-align: left;
+    border-radius: 10px;
+    border:1px solid #d5d5d5;
+    z-index:999;
+}
+
+.lab_info_hover p{
+	margin:0;
+	padding:0;
+	line-height:18px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	font-size:14px;
+	color:#203c66
+}
+
+.details_open{
+	background-image: url("../images/projectCreation/details_open.png");
+	background-repeat: no-repeat;
+	width:20px;
+    height:20px;
+    cursor: pointer;
+}
+
+.details_close{
+	background-image: url("../images/projectCreation/details_close.png") !important;
+}
+
+.details_subarrow{
+	background-image: url("../images/projectCreation/details_subarrow.png");
+	background-repeat: no-repeat;
+	width:13px;
+    height:18px;
+    margin-top:7px;
+    margin-left:10px;
+}
+
+/*Fixed*/

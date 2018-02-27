@@ -1,0 +1,653 @@
+@CHARSET "UTF-8";
+
+
+html, body {
+	height: 100%;
+	/* font-family: 'Exo 2' */
+	font-family: 'Source Sans Pro'
+}
+
+body.wait, body.wait *{
+ cursor: wait !important;   
+}
+
+.baseContainer {
+	width: 1026px !important;
+	min-height:100%;
+	display: block;
+	position:relative;
+	margin:0 auto;
+}
+
+img {
+	vertical-align: baseline !important;
+}
+
+select option{
+	width:100%!important;
+}
+
+tr{
+	outline:0px;
+}
+tr.selected{
+	outline:2px solid lightskyblue;
+}
+	  
+.modal-open .modal{
+	overflow-x:auto!important;
+	overflow-y:auto!important;
+}
+.upper_top_bar{
+	width: 1026px !important;
+	background-image:url("../images/header bar new.png");
+	height: 60px;
+	margin-top:5px;
+	padding-left: 40px;
+	
+}
+
+.ontap_logo{
+	background-image:url("../images/onTAP_logo.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	height: 35px;
+	width: 111px;
+	margin-top:12px;
+	float: left;
+}
+
+.virtual_text{
+	font-family: 'Exo 2';
+	color: rgb(255,255,255);
+	font-weight: 400;
+	font-size: 16px;
+	margin-left: 53px;
+	margin-top: 20px;
+	float: left;
+	
+}
+
+.lower_top_bar{
+	width: 1026px !important;
+	background-image:url("../images/lower_top_bar_background.png");
+	height: 59px;
+	margin-top: -1px; 
+}
+
+.setting_icon{
+	list-style: none;
+	height: 59px;
+	margin:0 62px;
+	padding:10px 0;
+	float:right;
+	width:280px;	
+}
+
+.setting_icon_settings{
+	background: url("../images/settings gear icon.png") no-repeat 0 3px;
+	padding-left:18px;
+	font-family: "Exo 2";
+	font-weight: 300;
+	font-size:14px;
+	color:#FFFFFF;
+	float:right;
+	display:inline;
+	cursor: pointer;
+}
+
+.setting_icon_settings:HOVER{
+	background-image: url("../images/settings gear icon_hover.png");
+	color:#9B9B9B;
+}
+
+.setting_icon_logout{
+	font-family: "Exo 2";
+	font-weight: 400;
+	font-size:14px;
+	color:#FFFFFF;
+	float:right;
+	display:inline;
+	cursor: pointer;
+}
+
+.setting_icon_logout:HOVER{
+	color:#9B9B9B;
+}
+
+.setting_icon_userinfo{
+	/*background: url("../images/user_pic.PNG") no-repeat 0 3px;*/
+	font-family: "Exo 2";
+	font-size:14px;
+	color:#FFFFFF;
+	/*width:150px;*/
+	width:210px;
+	height:39px;
+	/*padding-left:39px;*/
+}
+.setting_icon_userinfo .name{
+	font-weight: 300;
+	max-width: 200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: break-word;
+}
+
+.setting_icon_userinfo .company{
+	font-weight: 400;
+	max-width: 200px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	word-wrap: break-word;
+}
+
+.menu_icon{
+	list-style: none;
+	height: 59px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.menu_icon_dashboard{
+	background-image: url("../images/dashboard_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_dashboard:HOVER{
+	background-image: url("../images/dashboard_rollover.png");
+	cursor: pointer;
+}
+
+
+.menu_icon_connection{
+	background-image: url("../images/connections_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_connection:HOVER{
+	background-image: url("../images/connections_rollover.png");
+	cursor: pointer;
+}
+
+
+.menu_icon_mybackups{
+	background-image: url("../images/Backup_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_mybackups:HOVER{
+	background-image: url("../images/Backup_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_mybackups:FOCUS{
+	background-image: url("../images/Backup_selected.png");
+}
+
+.menu_icon_support{
+	background-image: url("../images/support_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;
+}
+
+.menu_icon_support:HOVER{
+	cursor: pointer;
+	background-image: url("../images/support_rollover.png");
+}
+
+
+.menu_icon_credits{
+	font-family: 'Exo 2';
+	font-weight:400;
+	height: 0px;	
+	width: 100px;
+	text-align: center;
+	color: white;		
+	vertical-align:baseline;
+	margin-left: 640px;
+	padding-top: 18px;
+	font-size:18px;
+	
+}
+.menu_icon_calculator{
+	background-image: url("../images/calculator icon_default.png");
+	background-position:15px 12px;
+	background-repeat: no-repeat;
+	height: 59px;
+	width: 51px;
+	margin-left:23px;
+	float:left;	
+	cursor: pointer;
+}
+.menu_icon_calculator:Hover{
+	background-image: url("../images/calculator icon_hover_selected.png");
+}
+
+.menu_icon_add_credit{
+	background-image: url("../images/Add funds _default.png");
+	height: 45px;
+	background-repeat: no-repeat;
+	width: 154px;
+	float: right;	
+	margin-top: 8px;
+}
+
+.menu_icon_add_credit:HOVER {
+	background-image: url("../images/Add funds _rollover.png");	
+	cursor: pointer;
+}
+.menu_display_credit{
+	float:left;
+	margin-top: 19px;
+	margin-left: 38px;
+	font-family: 'Exo 2';
+	font-weight: 400;
+	font-size: 15px;
+	color:rgb(162,162,162);
+	width:70px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+.menu_display_credit:HOVER{
+	overflow:visible;
+}
+	
+.info_pane{
+	list-style: none;
+	height: 59px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	
+}
+
+.user_info{
+	float: left;
+	margin-left: -715px;
+	font-size: 21px;
+	color: #7694b7;
+	font-family: 'Source Sans Pro';
+	font-weight:700;
+	line-height: 27px;
+	font-weight: 600;
+}
+.addUser_icon{
+	background-image: url("../images/add_user_default.png");
+	height: 35px;
+	width: 180px;
+	float: right;
+	margin-right: 65px;
+}
+
+.addUser_icon:HOVER {
+	background-image: url("../images/add_user_rollover.png");
+	cursor: pointer;
+}
+
+
+.table_data{
+	margin-left: 72px;
+}
+.table_search_pane{
+	list-style: none;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	color: #7694b7;
+	font-size: 18px;
+	line-height: 23px;
+	width: 380px;
+	height: 35px;
+	
+}
+
+.table_search_user{
+	width: 145px;
+	height: 35px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	font-weight: 600;
+}
+
+.table_search_icon{
+	background-image: url("../images/search_box_default.png");
+	height: 35px;
+	width: 190px;
+	float: left;
+	display: inline;
+}
+.table_search_icon_textbox{
+	height: 35px;
+	width: 150px;
+	float: left;
+	display: inline;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+}
+
+.table_search_icon:HOVER {
+	background-image: url("../images/search_box_rollover.png");
+	cursor: pointer;
+}
+
+.table_body{
+	border-bottom: 1px solid #7694b7;
+	border-collapse: collapse;
+	margin-left: 36px;
+	width: 90%;
+}
+
+.table_th{
+	border-bottom: 1px solid #7694b7;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	font-size: 14px;
+	color: #7694b7;
+	line-height: 18px;
+	padding-bottom: 10px;
+}
+
+.table_body_tr{
+	
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	/* font-family: 'Source Sans Pro-Regular'; */
+	font-size: 15px;
+	color: #7694b7;
+	line-height: 48px;
+}
+
+.table_del_icon{
+	background-image: url("../images/del_icon.png");
+	background-repeat: no-repeat;
+	
+    padding-top: 30px;
+    margin-top: 16px;
+    text-align: center;
+    margin-left: 8px;
+	
+}
+
+.table_unlock_icon{
+	background-image: url("../images/unlock_icon.png");
+	background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 8px;
+
+}
+
+.table_lock_icon{
+	background-image: url("../images/lock_icon.png");
+	background-repeat: no-repeat;
+    padding-top: 30px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 8px;
+    
+}
+
+.table_edit_icon{
+	background-image: url("../images/edit_button_default.png");
+	background-repeat: no-repeat;
+    padding-top: 36px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.table_edit_icon:HOVER {
+	cursor: pointer; 
+}
+
+.tabs_container {
+	width: 1026px !important;	
+	height: 1024px;
+	
+ 	border-style: solid;
+    border-color: #c6c6c6;
+    border-width: thin;	
+}
+
+
+/* Selected icons change */
+
+.menu_icon_dashboard_selected{
+	background-image: url("../images/dashboard_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_connection_selected{
+	background-image: url("../images/connections_selected.png"); 
+	cursor: pointer;
+}
+
+.menu_icon_support_selected{
+	background-image: url("../images/support_selected.png"); 
+	cursor: pointer;
+}
+
+.menu_icon_mybackups_selected{
+	background-image: url("../images/Backup_selected.png"); 
+	cursor: pointer;
+}
+
+.menu_icon_calculator_selected{
+	background-image: url("../images/calculator icon_hover_selected.png");
+}
+.menu_icon_add_credit_selected{
+	background-image: url("../images/Add funds _selected.png");	
+	cursor: pointer;
+}
+
+th {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+td {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+/*----------Footer-----------*/
+
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	float: left;
+	display: block;
+}
+
+#content {
+	float: left;
+	display :block;
+	min-height:740px;
+	width:1026px;
+	padding-bottom:50px; /* Height of the footer element */
+}
+#footer {
+	background-image: url("../images/footer.png");
+	background-repeat: repeat-x;
+	width:1026px;
+	height:50px;
+	position:fixed;
+	margin-top:50px;
+	bottom:0;
+	float: left;
+	display: block;
+	color: #ffffff;
+	padding-left:306px;
+	padding-top: 20px;
+	font-family: 'Exo 2';
+	font-size:  14px;
+	font-weight: 200;
+}
+
+#footer a{
+	color:white;
+	text-decoration: none;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+       
+   /* To use our own image..remove other track,inactive,thumb and use this image and image in thumb
+       background:url("../images/message_board/light grey scoll control.png");*/ 
+  
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #E3E9F0; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    
+    /*background:url("../images/message_board/dark grey scoll.png");*/
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(198,198,198,0.4); 
+}
+
+/**********BOOTBOX ALERT BOX**************/
+.bootbox-close-button{
+	display:none;
+}
+
+.bootbox{
+	position: absolute;
+	padding-top: 400px;
+	/*padding-left: 180px;*/
+}
+
+.bootbox-body{
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 18px;
+	padding-left: 38px;
+	margin-top: 14px;
+	color:rgb(111,111,111);
+}
+
+.bootbox .modal-body{
+	padding-bottom: 0px;
+	padding-right:0px;
+	width:600px;
+	
+}
+
+.bootbox .modal-footer{
+	border-top:0px;
+	padding-left: 0px;
+	padding-right:10px;
+	padding-top: 0px;
+	position: absolute;
+	right: 0px;
+	bottom: 14px;
+}
+
+.bootbox .btn-primary{
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.bootbox .btn-default{
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+	
+.bootbox .modal-content{
+	background-repeat: no-repeat;
+	width:624px;
+	height: 85px;
+	border-radius:10px;
+	background-color: transparent;
+}
+
+.modalalert{
+	background-image: url("../images/alert_yellow banner.png") !important;
+	background-repeat: no-repeat;
+}
+
+.modalsuccess{
+	background-image: url("../images/success_green banner.png") !important;
+	background-repeat: no-repeat;
+}
+
+.modalfailure{
+	background-image: url("../images/failure_red banner.png") !important;
+	background-repeat: no-repeat;
+}
+
+
+.bootbox button{
+	width:59px;
+	height:25px;
+	padding:0;
+	margin-top:0px;
+	border:0;
+	
+}
+
+/* Removing Checkbox outer blue border when selected */
+input[type="checkbox"]:focus{
+        outline:0 !important;
+    }
+    
+/*Ticket:35944,35945
+Issue: Multiple warning messages will be shown with quick click on buttons which trigger ajax call
+Fix: Fixed globally for all such cases on modal screen. Block modal screen while processing ajax call. 
+Author: Lei Song*/
+.modal .blockOverlay{	
+	opacity:0!important;
+	cursor:wait;
+}
+.serverEnvironment{
+	width:350px;
+	text-align:center;
+	font-size:25px; 
+	font-weight:600;
+	position:absolute; 
+	margin-top:15px;
+	color: cornsilk;
+}

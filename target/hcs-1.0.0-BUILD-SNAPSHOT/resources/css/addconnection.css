@@ -1,0 +1,177 @@
+
+
+.addconnection{
+	background-image: url("../images/add_connection/Add a connection pop-up box.png");
+	background-repeat: no-repeat;   
+	height:441px;
+	width:489px;
+	margin-top:-1px;
+	margin-left:-1px;
+	padding-left:30px;
+}
+
+.addconnection .title{
+	margin:0;
+	padding-top:37px;
+	padding-bottom:32px;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:16px;	
+	color:#7694b7;	
+}
+.addconnection p .active{
+	margin:0;
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+}
+
+.addconnection p {
+	margin:0;
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+}
+
+.addconnection .message{
+	margin:0;
+	font-family: "Source Sans Pro";
+	color:#9A9A9A;
+	font-weight: 400;
+	font-size:14px;
+	
+}
+
+.addconnection table{
+	margin-right:30px;
+}
+
+.addconnection table tr td{
+	line-height:51px;
+	border:0;
+	padding:0;
+	width:159px;
+}
+
+.addconnection .connection_type{
+	background-image: url("../images/add_connection/connection type_dropdown.png");
+	background-repeat: no-repeat;
+	width:194px;
+	height:36px;
+	border:0;
+	outline:0;	
+	color:#7694b7;	
+	padding:1px 5px;
+	line-height: normal;	
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 	
+   	cursor: pointer;
+}
+.addconnection input[disabled]{
+	background-color:white;
+}
+.addconnection input, select{
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+	
+}
+.addconnection .input_box{
+	background-image: url("../images/add_connection/input box_default.png");
+	background-repeat: no-repeat;
+	width:195px;
+	height:36px;	
+	border:0;
+	padding:1px 8px;	
+	outline:0;
+	line-height: 34px;	
+}
+
+.addconnection .input_box_active{
+	background-image: url("../images/add_connection/input box_active.png");	
+}
+.addconnection .ip_range_box1{
+	background-image: url("../images/add_connection/IP Range box1_default.png");
+	background-repeat: no-repeat;
+	width:91px;
+	height:36px;	
+	border:0;
+	padding:1px 8px;	
+	outline:0;
+	line-height: 34px;		
+	float:left;
+}
+.addconnection .ip_range_box1_active{
+	background-image: url("../images/add_connection/IP Range box1_active.png");	
+}
+.addconnection .ip_range_box2{
+	background-image: url("../images/add_connection/IP Range box 2_default.png");
+	background-repeat: no-repeat;
+	width:81px;
+	height:37px;	
+	border:0;
+	padding:1px 8px;	
+	outline:0;
+	line-height: 34px;		
+	float:left;	
+}
+.addconnection .ip_range_box2_active{
+background-image: url("../images/add_connection/IP Range box 2_active.png");
+}
+.addconnection .slash_ip_range{
+	background-image: url("../images/add_connection/slash_IP Range_default.png");
+	background-repeat: no-repeat;
+	width:14px;
+	height:23px;	
+	border:0;	
+	line-height: 34px;		
+	float:left;	
+	margin:6px 4px;
+}
+.addconnection .slash_ip_range_active{
+	background-image: url("../images/add_connection/slash_IP Range_active.png");
+}
+
+.addconnection .listip_box{
+	background-image: url("../images/add_connection/Email Recipients box_default.png");
+	background-repeat: no-repeat;
+	width:233px;
+	height:36px;	
+	border:0;
+	padding:1px 8px;	
+	outline:0;
+	line-height: 34px;	
+}
+
+.addconnection .listip_box_active{
+	background-image: url("../images/add_connection/Email Recipients box_active.png");
+}
+.addconnection_buttons .cancel_button{
+	background-image: url("../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+.addconnection_buttons .save_button{
+	background-image: url("../images/add_connection/save button.png");
+	background-repeat: no-repeat;
+	margin-left:25px;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}

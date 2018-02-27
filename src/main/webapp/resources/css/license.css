@@ -1,0 +1,62 @@
+.license_popup{
+	float:left;
+	width:720px;
+	height:723px;
+	padding-left:30px;
+}
+
+.license_heading{
+	display:block;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	color:rgb(111,111,111);
+	margin-top: 37px;
+	font-size: 18px;
+	margin-bottom: 35px;
+}
+
+.license_txt{
+	float:left;
+	text-align:left;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color:#7694b7;
+	width:240px;
+    padding-bottom: 30px; 
+}
+
+.license_data{
+	margin-left:10px;
+	float: left;
+	font-weight: 600;
+	width: 400px;
+	font-size: 16px;
+	color:#7694b7;
+	padding-bottom: 30px;  
+	margin-bottom: 5px;
+}
+
+.license_input_box_disabled{
+    background-image: url(../images/myprofile/input box_disabled.png);
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 384px;
+    margin-left: 10px;
+    float: left;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    color: rgb(111,111,111);
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+    line-height: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+}

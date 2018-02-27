@@ -1,0 +1,287 @@
+@CHARSET "ISO-8859-1";
+
+
+.trans_hist_border_box{
+	
+	float:left;
+	background-image: url("../images/transaction_history/internal box.png");
+	background-repeat: no-repeat;
+	width:650px;
+	height: 480px;
+	margin-top: 45px;
+	
+}
+
+.trans_hist_current_balnce_text{
+	font-size: 16px;
+	font-family: 'Source Sans Pro';
+	font-weight: 600px;
+	float: right;
+	color:rgb(162,162,162);
+	
+}
+
+.trans_hist_current_balance_box_image{
+	background-image: url("../images/transaction_history/current balance_box.png");
+	background-repeat: no-repeat;
+	float: right;
+	width:114px;
+	height:35px;
+	margin-right: 50px;
+	margin-top: -3px;
+}
+
+.trans_hist_current_balance_box{
+	width:90px;
+	height:25px;
+	border:0px;
+	background: transparent;
+	margin-left: 20px;
+	margin-top:4px;
+	margin-bottom: 3px;
+	
+		
+}
+
+.trans_hist_download{
+	background-image: url("../images/transaction_history/Download pdf button.png");
+	background-repeat: no-repeat;
+	width:114px;
+	height:40px;
+	right: 50px;
+	float: right;
+	position: absolute;
+	bottom:50px;
+	cursor: pointer;
+	background-color: transparent;
+	
+}
+
+.trans_hist_border_box tr td{
+	
+	/*line-height: 35px;*/
+	line-height: 35px;
+	
+}
+
+/*.trans_hist_border_box .table_th_transaction{
+	margin-left: 20px;	
+	
+	border-bottom: 2px solid #C6C6C6;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color: #9A9A9A;
+	line-height: 18px;
+	padding: 0;	
+}*/
+.transactionTable{
+	
+	
+}
+
+.table_th_transaction{
+	border-bottom: 2px solid #C6C6C6;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color: #9A9A9A;
+	line-height: 18px;
+	padding: 0;	
+}
+
+
+.trans_hist_border_box .table_body_tr_transaction{	
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	/* font-family: 'Exo2-Regular'; */
+	font-size: 15px;
+	border:none;	
+	color: #7694b7;	
+}
+}
+
+.trans_hist_border_box .borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.trans_hist_border_box .borderless thead, .borderless tbody{
+	text-align: left;
+}
+
+.user_info_users{
+	float: left;
+	margin-left: 25px;
+	font-size: 18px;
+	color: #6F6F6F;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	line-height: 27px;
+	margin-top:19px;
+}
+
+
+
+/*------------ Scrollable part CSS -----------------------*/
+
+@CHARSET "ISO-8859-1";
+
+.trans_hist_border_box .scrollableContainer {
+    height: 485px;
+    position: relative;
+   	margin-top: -35px;
+    padding-left: 5px;
+    overflow: hidden;
+    width: 630px;
+}
+.trans_hist_border_box .scrollableContainer .headerSpacer {    
+    border-bottom-color: #bbb;
+    border-bottom:0px;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom:12px;
+    width:600px;
+}
+.trans_hist_border_box .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+.trans_hist_border_box .scrollableContainer th .orderWrapper .order {
+    font-size: 8pt;
+    color: #BDBDBD;
+}
+.trans_hist_border_box .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}
+
+.trans_hist_border_box th:nth-child(1) .orderWrapper {
+ top :13px;
+ right: 120px;
+}
+
+.trans_hist_border_box th:nth-child(2) .orderWrapper {
+ top :13px;
+ right: 70px;
+}
+.trans_hist_border_box th:nth-child(3) .orderWrapper {
+ top :13px;
+ right: 30px;
+}
+
+.trans_hist_border_box .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+ background-color: #E3E9F0;
+}
+
+
+.trans_hist_border_box .scrollArea {
+    height: 90%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 38px;
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned headers within 
+    -webkit-overflow-scrolling: touch;  */
+}
+.trans_hist_border_box .scrollArea table {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 0;
+    width: 610px;
+    border: none;
+    table-layout:fixed;
+    margin-left: 5px;
+    margin-top: 0px;
+    border-collapse: separate;	
+	border-spacing: 0 16px;
+    /*border-collapse: separate;*/
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.trans_hist_border_box .scrollArea table th {
+    padding: 0 !important;
+    /*min-width: 60px;*/
+}
+.trans_hist_border_box .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    height: 36px;
+    line-height: 36px;
+}
+/*
+.scrollArea table th .box {
+    padding: 0 8px;
+    padding-right: 11px;    /*  order icon width*/
+}
+*/
+/*  to hack fix firefox border issue    */
+@-moz-document url-prefix() {
+    .scrollArea table th .box{
+        
+        border-left: none;
+    }
+}
+
+.trans_hist_border_box .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trans_hist_border_box .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+.trans_hist_border_box .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+.trans_hist_border_box .scrollArea table tbody tr td:first-child {
+    border-left: none;
+}
+.trans_hist_border_box .scrollArea table tbody tr td:last-child {
+    border-right: none;
+}
+.trans_hist_border_box .scrollArea table tbody tr:first-child td {
+    border-top: none;
+}
+.trans_hist_border_box .scrollArea table tbody tr:last-child td {
+    border-bottom: none;
+}
+.trans_hist_border_box .scrollArea table tbody tr td {
+    
+    white-space:nowrap;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trans_hist_border_box .scrollableContainer .scaler {
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.trans_hist_border_box .scrollableContainer th .resize-rod {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 4px;
+    height: 100%;
+}
+
+.trans_hist_border_box .scrollable-resizing .scrollableContainer {
+    cursor: col-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+

@@ -1,0 +1,156 @@
+
+.popup_header input{
+	float:right;
+	border:0;
+	background-image: url("../images/reserveLabCatalog/search_defualt.png");
+	background-repeat: no-repeat; 
+	margin-right:36px;
+	margin-top:34px;
+	width:188px;
+	height:32px;	
+	padding-left:14px;
+    font-family: "Source Sans Pro";
+    color: #6F6F6F;	
+}
+.popup_header input:FOCUS{
+	background-image: url("../images/reserveLabCatalog/search_input_on clicking.png");
+}
+.popup_header input::after{
+	background-image: url("../images/reserveLabCatalog/search_input_on clicking.png");
+}
+.product_catalog{
+	margin-left:7px;
+	margin-top:28px;
+}
+.product_catalog h3{
+	padding:0;
+	margin:0;
+	margin-left:31px;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:18px;	
+	color:#6F6F6F;	
+}
+.product_catalog .brand_divider{
+	margin-left:31px;
+	height:2px;
+	width:852px;
+	border-top:2px solid #C6C6C6;
+	margin-bottom:28px;
+}
+		
+.product_catalog .equipList{
+	margin: 0;
+    padding: 7px 0 0 35px;
+    list-style: none;
+    overflow: hidden;
+    width: 892px;	
+}
+
+.product_catalog .equipList li{
+    float: left;
+    width: 403px;
+    height: 111px;
+    position: relative;
+    overflow: hidden;
+    padding: 4px 5px 4px 0;
+	margin:0 32px 22px 0;
+	border:2px solid white;
+}
+
+.product_catalog .equipList li.selected{
+	border-radius:5px;
+	border:2px solid lightskyblue;
+}
+
+.product_catalog li:nth-child(even){
+	margin-right:0!important;
+} 
+
+.product_catalog .logo{
+	float:left;
+	background-repeat: no-repeat; 
+	background-color:white;
+	background-size:90px 95px, 100% 90%;
+	width:90px;
+	height:95px;
+	margin-right:18px;
+	line-height:95px;
+	text-align:center;
+	
+}
+.product_catalog .bEquipment_info{
+    float: left;
+	font-family: "Source Sans Pro";	
+	color:#6F6F6F;
+	width:275px;
+	height:95px;
+}
+
+.product_catalog .bEquipment_name{
+	margin:0;
+	padding-top:10px;
+	padding-bottom:16px;
+	font-weight:600;
+	font-size:18px;	
+	line-height:18px;
+  	vertical-align: baseline;
+  	width:182px;
+  	overflow:hidden;
+  	text-overflow:ellipsis;
+  	white-space:nowrap;
+  	position:relative
+}
+.product_catalog .bEquipment_name:HOVER{
+  	overflow:visible;	
+  	white-space:normal;
+  	z-index:100;
+}
+.product_catalog .bEquipment_detail{
+	width:275px;
+	height:55px;
+	padding:0;
+	border:0;
+	resize: none;
+	font-family: "Source Sans Pro";
+	font-weight:400;
+	font-size:14px;	
+	color:#6F6F6F;	
+	outline:0;
+	background-color:white;
+}
+
+.product_catalog .reserve_button{
+	background-image: url("../images/reserveLabCatalog/reserve button.png");
+	background-repeat: no-repeat; 
+	float:left;
+	width:91px;
+	height:41px;
+	margin-left:-90px;
+	border:0;
+	padding:0;
+	outline:0;
+	background-color:white;
+	cursor: pointer;
+}
+
+.product_catalog .coming_soon_button{
+	background-image: url("../images/reserveLabCatalog/coming soon_button.png");
+	background-repeat: no-repeat; 	
+	float:left;
+	width:91px;
+	height:41px;	
+	margin-left:-90px;
+	border:0;
+	padding:0;
+	outline:0;
+	background-color:white;
+	cursor: pointer;
+}
+
+
+
+
+
+
+

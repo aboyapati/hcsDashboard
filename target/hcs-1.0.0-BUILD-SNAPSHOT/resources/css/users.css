@@ -1,0 +1,308 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.table_data_users tbody tr:nth-child(even) td {
+	/* padding-top: 20px;
+	padding-bottom: 20px; */	
+}
+.table_data_users tr td{
+	
+	/*line-height: 35px;*/
+	line-height: 35px;
+	
+}
+
+.table_search_pane_users{
+	margin-left: 25px;
+}
+
+.table_search_user{
+	font-family: 'Source Sans Pro';	
+}
+
+.tbl_container{
+        height: 300px;
+        overflow: auto;
+        overflow-y: scroll;
+}
+
+.table_lock_icon_users{
+	background-image: url("../images/lock_icon.png");
+	background-repeat: no-repeat;
+    text-align: center;   
+    width: 16px;
+    height: 20px;
+    margin-top: 2px;
+    padding: 0px;
+    margin-left: 6px;
+}
+
+.table_unlock_icon_users{
+	background-image: url("../images/unlock_icon.png");
+	background-repeat: no-repeat;
+    text-align: center;   
+    width: 26px;
+    height: 22px;
+    padding: 0px;
+    margin-left: 6px;
+}
+
+.table_del_icon_users{
+	background-image: url("../images/del_icon.png");
+	background-repeat: no-repeat;    
+    text-align: center;
+    width: 12px;
+    height: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 6px;
+}
+
+.table_edit_icon_users{
+	background-image: url("../images/edit_button_default.png");
+	background-repeat: no-repeat;    
+    text-align: center;
+    width: 61px;
+    height: 30px;
+    margin: 0px;
+}
+
+.table_edit_icon_users:HOVER {
+	cursor: pointer; 
+}
+
+.table_th_users{
+	border-bottom: 2px solid #7694b7;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color: #7694b7;
+	line-height: 18px;
+	padding: 0;	
+}
+
+
+.table_body_tr_users{	
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	/* font-family: 'Exo2-Regular'; */
+	font-size: 15px;
+	color: #7694b7;	
+	border:none;	
+}
+
+.borderless tbody tr td, .borderless tbody tr th, .borderless thead tr th {
+    border: none;
+}
+
+.borderless thead, .borderless tbody{
+	text-align: left;
+}
+
+.user_info_users{
+	float: left;
+	margin-left: 25px;
+	font-size: 18px;
+	color: #6F6F6F;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	line-height: 27px;
+	margin-top:19px;
+}
+
+.addUser_icon_users{
+	background-image: url("../images/add_user_default.png");
+	height: 36px;
+	width: 133px;
+	float: right;
+	margin-right: -10px;
+	margin-top: 7px;
+	background-repeat: no-repeat;
+}
+
+.addUser_icon_users:HOVER {
+	background-image: url("../images/add_user_rollover.png");
+	cursor: pointer;
+}
+
+.table_data_users{
+	
+    width:735px;
+    padding:0px;
+    padding-top:20px;
+    position: relative;
+    height: 600px;
+    display: block !important;
+	
+}
+
+
+
+
+
+
+/*------------ Scrollable part CSS -----------------------*/
+
+@CHARSET "ISO-8859-1";
+
+.table_data_users .scrollableContainer {
+    height: 475px;
+    position: relative;
+    padding-top: 35px;
+    overflow: hidden;
+    width: 730px;
+}
+.table_data_users .scrollableContainer .headerSpacer {    
+    border-bottom-color: #bbb;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 2px solid #C6C6C6;
+    padding-bottom:12px;
+    width:730px;
+}
+.table_data_users .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+.table_data_users .scrollableContainer th .orderWrapper .order {
+    font-size: 8pt;
+    color: #BDBDBD;
+}
+.table_data_users .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}
+
+.table_data_users th:nth-child(2) .orderWrapper {
+ top :12px;
+ right: 22px;
+}
+.table_data_users th:nth-child(3) .orderWrapper {
+ top :12px;
+ right: 25px;
+}
+.table_data_users th:nth-child(4) .orderWrapper {
+ top :12px;
+ right: 20px;
+}
+.table_data_users th:nth-child(5) .orderWrapper {
+ top :12px;
+ right: 15px;
+}
+
+.table_data_users .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+ background-color: #E3E9F0;
+}
+
+
+.table_data_users .scrollArea {
+    height: 90%;
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 0px;
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned headers within 
+    -webkit-overflow-scrolling: touch;  */
+}
+.table_data_users .scrollArea table {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 0;
+    width: 722px;
+    border: none;
+    table-layout:fixed;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-collapse: separate;	
+	border-spacing: 0 16px;
+    /*border-collapse: separate;*/
+}
+.table_data_users .scrollArea table th {
+    padding: 0 !important;
+    /*min-width: 60px;*/
+}
+.table_data_users .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    height: 36px;
+    line-height: 36px;
+    cursor: pointer;
+}
+/*
+.scrollArea table th .box {
+    padding: 0 8px;
+    padding-right: 11px;    /*  order icon width*/
+}
+*/
+/*  to hack fix firefox border issue    */
+@-moz-document url-prefix() {
+    .scrollArea table th .box{
+        
+        border-left: none;
+    }
+}
+
+.table_data_users .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table_data_users .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+.table_data_users .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+.table_data_users .scrollArea table tbody tr td:first-child {
+    border-left: none;
+}
+.table_data_users .scrollArea table tbody tr td:last-child {
+    border-right: none;
+}
+.table_data_users .scrollArea table tbody tr:first-child td {
+    border-top: none;
+}
+.table_data_users .scrollArea table tbody tr:last-child td {
+    border-bottom: none;
+}
+.table_data_users .scrollArea table tbody tr td {
+    
+    white-space:nowrap;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table_data_users .scrollableContainer .scaler {
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.table_data_users .scrollableContainer th .resize-rod {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 4px;
+    height: 100%;
+}
+
+.table_data_users .scrollable-resizing .scrollableContainer {
+    cursor: col-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+

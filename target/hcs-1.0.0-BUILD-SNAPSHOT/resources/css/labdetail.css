@@ -1,0 +1,451 @@
+
+			/*-----------Header----------*/
+.labdetail_header{
+	margin-top:19px;
+	margin-left:43px;
+	margin-bottom:25px;
+	height:35px;
+}
+
+.labdetail_header h3{
+	float:left;
+	margin:0;
+    color: #7694b7;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 19px;
+    line-height:35px;
+}
+
+.labdetail_header .back_button{
+	background-image: url("../images/lab_detail/Back button.png");
+	background-repeat: no-repeat;
+	margin-top:2px;
+	margin-right:20px;
+	width: 62px;
+	height: 31px;	
+	float:left;
+}
+
+
+.labdetail_header .dl_lab_detail{
+	background-image: url("../images/lab_detail/D_L Lab Detail_default.png");
+	background-repeat: no-repeat;
+	width: 181px;
+	height: 35px;	
+	margin-right:63px;
+	margin-top:1px;
+	float:right;	
+	border:0;
+}
+
+.labdetail_header .dl_lab_detail:HOVER{
+	background-image: url("../images/lab_detail/D_L Lab Detail_selected.png");
+}
+
+			/*-----------Info----------*/
+.labdetail_info{
+	margin-left:86px;
+}
+.labdetail_info table{
+    color: #7694b7;
+    font-family: 'Source Sans Pro';	
+    align:left;	
+    width:845px;
+    margin-bottom:22px;
+}
+
+.labdetail_info table tr th{
+	font-weight: 400;
+    font-size: 18px;	
+    font-weight:600;
+    line-height: 15px;
+    padding-bottom: 11px;
+	
+}
+
+.labdetail_info table tr td{
+    font-weight: 400;
+    font-size: 14px;	
+	padding-right:40px;
+}
+
+.labdetail_info .lab_name{
+	background-image: url("../images/lab_detail/Lab Name_box.png");
+	background-repeat: no-repeat;
+	width: 293px;
+	height: 37px;	
+	padding-left:20px;
+	line-height:35px;
+	
+	
+}
+.labdetail_info .state_icon_Online{
+	background-image: url("../images/lab_detail/on button.png");
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 25px;	
+	cursor: pointer;
+}
+
+.labdetail_info .state_icon_Offline{
+	background-image: url("../images/lab_detail/off button.png");
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 25px;	
+	cursor: pointer;
+}
+
+			/*-----------VM Table----------*/
+			
+.labdetail_vm{
+	float: left;
+	background-image: url("../images/lab_detail/VM Lab_box.png");
+	background-repeat: no-repeat;
+	width: 421px;
+	height: 258px;	
+	padding:0 10px 0 7px;	
+	margin-left:86px;
+	
+}
+.labdetail_vm .scrollarea table{
+    color: #7694b7;
+    width:379px;
+    font-family: 'Source Sans Pro';	
+    line-height: 14px;
+}
+
+.labdetail_vm h3{
+    color: #7694b7;
+    font-family: 'Source Sans Pro';	
+    padding:12px 0;
+    line-height: 18px;
+    font-size:18px;
+    font-weight:600;
+    margin:0;
+}
+
+.labdetail_vm .scrollableContainer {
+    width:405px;   
+    position: relative;
+    overflow: hidden;
+	white-space:nowrap;
+}
+.labdetail_vm .scrollarea{
+	height:200px;
+    overflow-x: hidden;
+    overflow-y: auto;	
+}
+.labdetail_vm table{
+	border-collapse: separate;	
+	border-spacing: 0 16px;
+}
+.labdetail_vm table tr td{
+    border:0;
+    line-height:35px;
+	text-align: left;
+	white-space: nowrap;
+	padding:0;
+	vertical-align: middle;
+}
+.labdetail_vm tbody tr{
+	height: 35px;	
+}
+.labdetail_vm tbody tr:nth-child(odd){
+	background: #E3E9F0;
+}
+
+
+.labdetail_vm .on_slider_button{
+	background-image: url("../images/lab_detail/on slider_blue button.png");
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 25px;
+	margin-left:17px;	
+	cursor: pointer;
+}
+
+.labdetail_vm .off_slider_button{
+	background-image: url("../images/lab_detail/off slider_blue button.png");
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 25px;	
+	margin-left:17px;
+	cursor: pointer;
+}
+
+/*-----------HW Table----------*/
+			
+.labdetail_hw{
+	background-image: url("../images/lab_detail/VM Lab_box.png");
+	background-repeat: no-repeat;
+	width: 421px;
+	height: 258px;	
+	padding:0 10px 0 7px;	
+	margin-left:40px;
+	float: left;
+	
+}
+.labdetail_hw .scrollarea table{
+    color: #7694b7;
+    width:379px;
+    font-family: 'Source Sans Pro';	
+    line-height: 14px;
+}
+
+.labdetail_hw h3{
+    color: #7694b7;
+    font-family: 'Source Sans Pro';	
+    padding:12px 0;
+    line-height: 18px;
+    font-size:18px;
+    font-weight:600;
+    margin:0;
+}
+
+.labdetail_hw .scrollableContainer {
+    width:405px;   
+    position: relative;
+    overflow: hidden;
+	white-space:nowrap;
+}
+.labdetail_hw .scrollarea{
+	height:200px;
+    overflow-x: hidden;
+    overflow-y: auto;	
+}
+.labdetail_hw table{
+	border-collapse: separate;	
+	border-spacing: 0 16px;
+}
+.labdetail_hw table tr td{
+    border:0;
+    line-height:35px;
+	text-align: left;
+	white-space: nowrap;
+	padding:0;
+	vertical-align: middle;
+}
+.labdetail_hw tbody tr{
+	height: 35px;	
+}
+.labdetail_hw tbody tr:nth-child(odd){
+	background: #E3E9F0;
+}
+
+
+.labdetail_hw .on_slider_button{
+	background-image: url("../images/lab_detail/on slider_blue button.png");
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 25px;
+	margin-left:17px;	
+	cursor: pointer;
+}
+
+.labdetail_hw .off_slider_button{
+	background-image: url("../images/lab_detail/off slider_blue button.png");
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 25px;	
+	margin-left:17px;
+	cursor: pointer;
+}
+
+			/*-----------backup table----------*/
+.labdetail_backup{
+	margin-left:86px;
+	float: left;
+}			
+.labdetail_backup h3{
+	float:left;
+    color: #7694b7;
+    font-family: 'Source Sans Pro';	
+    width:400px;
+    font-weight:600;
+    line-height: 18px;
+    font-size:18px;
+    margin:19px 0 0 0;
+}			
+			
+.labdetail_backup .progress_base{
+	background-image: url("../images/lab_detail/backup progress bar.png");
+	background-repeat: no-repeat;
+	width: 641px;
+	height: 20px;	
+	float:left;
+	margin:14px 0 16px 0;
+}	
+			
+.labdetail_backup	.progress_bar{
+	background-image: url("../images/lab_detail/backup progress bar_status.png");
+	background-repeat: no-repeat;
+	width: 391px;
+	height: 20px;	
+	float:left;	
+}	
+				
+.labdetail_backup .backup_button{
+	background-image: url("../images/lab_detail/backup now_default.png");
+	background-repeat: no-repeat;
+	width: 181px;
+	height: 36px;	
+	margin-right:63px;
+	margin-top:7px;
+	float:right;	
+	border:0;
+	padding:0;
+	display:inline;
+	cursor: pointer;
+}
+
+.labdetail_backup .backup_button:HOVER{
+	background-image: url("../images/lab_detail/backup now_hover.png");
+}			
+				
+
+.labdetail_backup .delete_icon{
+	background-image: url("../images/lab_detail/delete icon.png");
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 10px;	
+	cursor: pointer;
+}
+
+.labdetail_backup .retrieve_button{
+	background-image: url("../images/lab_detail/Retrieve button.png");
+	background-repeat: no-repeat;
+	width: 61px;
+	height: 30px;	
+	cursor: pointer;	
+}
+		
+			
+.labdetail_backup .scrollableContainer {
+	clear:both;
+	width:880px;
+	height:220px;
+    position: relative;
+    overflow: hidden;
+	white-space:nowrap;
+	padding-top:35px;
+}
+
+.labdetail_backup .scrollableContainer .headerSpacer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width:880px; 
+	border:0;
+    height: 35px;
+}
+
+.labdetail_backup .scrollArea {
+    height: 185px;
+    overflow-x: hidden;
+    overflow-y: auto;
+	padding-left:8px;
+    border: 2px solid #C6C6C6;
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned headers within 
+    -webkit-overflow-scrolling: touch;  */
+}
+
+.labdetail_backup .scrollArea table {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 850px;
+    border: none;
+    margin:0;
+	border-collapse: separate;	
+	border-spacing: 0 16px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.labdetail_backup .scrollArea table th {
+    padding: 0 !important;
+    border: none !important;
+	font-size: 16px;
+	font-family: 'Source Sans Pro';
+	color: #7694b7;
+	font-weight:600;
+	vertical-align: middle;
+}	
+
+.labdetail_backup .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+}
+
+.labdetail_backup .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.labdetail_backup .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+
+.labdetail_backup .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+
+.labdetail_backup .scrollArea table tbody tr {
+	height: 37px;   
+}
+
+.labdetail_backup .scrollArea table tbody tr td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border:none;
+    line-height:35px;
+	font-family: 'Source Sans Pro';
+	color: #7694b7;
+	font-weight:400;
+    font-size:16px;
+    white-space:nowrap;
+	padding:0;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.labdetail_backup .scrollArea  tbody tr:nth-child(odd){
+	background: #E3E9F0;
+}
+			
+.labdetail_backup .scrollableContainer .scaler {
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.labdetail_backup  .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 12;
+    right: 17px;
+    cursor: pointer;
+}
+
+.labdetail_backup  .scrollableContainer th:nth-child(6) .orderWrapper {
+ right: 70px;
+}
+
+.labdetail_backup .scrollableContainer th .orderWrapper .order {
+    font-size: 8pt;
+    color: #BDBDBD;
+}
+.labdetail_backup .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}

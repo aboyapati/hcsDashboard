@@ -1,0 +1,139 @@
+
+		.res_lab_reserve_btn {
+			float: right;
+			display: block; 
+			background-image: url('../images/reservelab_product/reserve_button.png'); 
+			background-repeat: no-repeat;
+			width: 138px;
+			height: 40px;
+		    margin-top: 30px;
+		    cursor: pointer;
+		    margin-right: 50px;
+		    margin-left: 0px;"
+		}
+	   #res_lab_blue_rounded_bar {
+	   	border-radius: 4px;
+	    border: 2px solid #3495C9;
+	   }
+	   .res_lab_left_panel table {
+	   	 display: block;
+	   	font-family: 'Source Sans Pro';
+	   	font-weight: 600;
+	   	font-size: 14px; 
+	   	color: rgb(162, 162, 162);
+	   }
+		.res_lab_left_panel table {
+	   	 display: block;
+	   	font-family: 'Source Sans Pro';
+	   	font-weight: 600;
+	   	font-size: 14px; 
+	   	color: rgb(162, 162, 162);
+	   }   
+	   
+	  header, footer {
+        margin: 10px 0;
+      }
+      header label {
+        padding-left: 20px;
+      }
+      table{
+     	border-spacing:0px 15px;		
+      }	
+      
+      #backup_table td span{
+      	white-space: nowrap;
+      }
+      .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td 
+      {		      		
+      	vertical-align: middle;			
+      	padding: 0px;
+      	line-height: 35px;
+      }
+	  .scrollableContainer {
+	    height: 300px;
+	  }
+
+	  .res_lab_heading {
+		font-family: 'Source Sans Pro'; 
+		font-weight: 600; 
+		font-size: 19px; 
+		color: #7694b7; 
+		padding: 0px 0 5px 8px;
+	}
+	.table_th1{
+		border-bottom: 1px solid #7694b7;
+		font-family: 'Source Sans Pro';
+		font-weight:600;
+		font-size: 14px;
+		color: #7694b7;
+		line-height: 18px;
+		padding-bottom: 10px;
+		padding: 5px
+	}
+	.table_th1 div{
+		padding-left:5px;
+	}
+	
+	#mybackups_id .scrollableContainer {
+ 	height: 525px;
+ 	width : 685px;
+   }
+	
+	#mybackups_id .scrollArea {
+	margin-top: 0px;
+	height: 89%;
+	width : 685px;
+	border: 0px solid #d5d5d5;;
+	overflow-x: hidden;    
+ }
+	
+	.scrollArea table .th-inner .ng-scope {		
+		 text-align: left;
+	}
+
+	th:nth-child(1) .orderWrapper {
+	 left: 75px !important;
+	}
+	th:nth-child(2) .orderWrapper {
+	 left: 75px !important;
+	}
+	th:nth-child(3) .orderWrapper {
+	 left: 75px !important;
+	}
+	th:nth-child(4) .orderWrapper {
+	 left: 75px !important;
+	}
+	.test-container .scrollArea table {
+		width: 675px;
+		border:0px;
+	}
+	.test-container .scrollArea table td {
+		text-align: left;
+		white-space: nowrap;
+	}
+	.test-container .scrollArea table td span {
+		margin-left:5px;
+	}
+	.res_lab_right_panel .right_panel .title{
+	padding-top:34px;
+	}
+	
+.bu_complete_false{
+	background-image: url("../images/lablist/Backup icon.png");
+	background-repeat: no-repeat;
+	background-position: 5px;
+}
+
+.bu_complete_true{
+	background-image: url("../images/lablist/dash.png");
+	background-repeat: no-repeat;
+	background-position: 10px;
+}	
+.res_lab_right_panel .right_panel .buy_credits{
+	display:none;
+}
+	
+.blockOverlay{	
+	opacity:0!important;
+	cursor:wait;
+}

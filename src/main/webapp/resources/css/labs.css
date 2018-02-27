@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+.lab_sch_pane{
+	height: 8px;
+	list-style: outside none none;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+
+.sch_lab_icon{
+	background-image: url("../images/lab_schedule_default.png");
+	float: right;
+	height: 35px;
+	margin-right: 65px;
+	width: 180px;
+}
+
+.sch_lab_icon:HOVER{
+	background-image: url("../images/lab_schedule_selected.png");
+	cursor: pointer;
+}
+
+.labsch_my_reservation{
+	background-image: url("../images/my_reservation_default.png");
+	float: right;
+	height: 33px;
+	margin-right: 0px;
+	width: 141px;
+}
+
+.labsch_my_reservation:HOVER{
+	background-image: url("../images/my_reservation_selected.png");
+	cursor: pointer;
+}
+
+.labsch_company_reservation{
+	background-image: url("../images/company_reservation_default.png");
+	float: right;
+	height: 33px;
+	margin-right: 0px;
+	width: 142px;
+}
+
+.labsch_company_reservation:HOVER{
+	background-image: url("../images/company_reservation_selected.png");
+	cursor: pointer;
+}
+
+.sch_fixed_height_div {
+	height: 753px !important;
+	width: 1028px !important;
+}
+
+.tekvfooter{
+	background-image: url("../images/footer.png");
+	height: 50px;
+	margin-right: 15px;
+	margin-top: -15px;
+}

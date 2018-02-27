@@ -1,0 +1,128 @@
+
+
+.product_view{
+	padding:0;
+	margin:0;
+
+}
+
+.product_view li{
+	display:inline;
+ 	float:left;
+	margin:0;
+	margin-top:16px;
+	margin-right:-1px;
+	cursor: pointer;
+
+}
+
+.list_button{
+	background-image: url("../images/reserveLabProduct/list view button_default.png");
+	background-repeat: no-repeat;
+	width:111px;
+	height:30px;	
+	
+}
+.list_button:HOVER{
+	background-image: url("../images/reserveLabProduct/list view button_hover.png");
+	background-repeat: no-repeat;
+	width:111px;
+	height:30px;	
+	
+}
+.list_button_selected{
+	background-image: url("../images/reserveLabProduct/list view button_selected.png");
+	background-repeat: no-repeat;
+	width:111px;
+	height:30px;	
+	
+}
+
+.gallery_button{
+	background-image: url("../images/reserveLabProduct/Gallery view button_default.png");
+	background-repeat: no-repeat;
+	width:111px;
+	height:30px;	
+	
+}
+.gallery_button:HOVER{
+	background-image: url("../images/reserveLabProduct/Gallery view button_hover.png");
+	background-repeat: no-repeat;
+	width:111px;
+	height:30px;	
+	
+}
+.gallery_button_selected{
+	background-image: url("../images/reserveLabProduct/Gallery view button_selected.png");
+	background-repeat: no-repeat;
+	width:111px;
+	height:30px;	
+}
+
+
+.gallery_view{
+	display:none;
+	margin-left:48px;
+	margin-right:23px;
+	margin-top:65px;
+}
+
+.list_view{
+	display:none;
+	clear:both;
+	margin-right:23px;
+	margin-top:70px;
+		margin-left:73px;
+}
+.list_view ul{
+	padding:0;
+}
+.list_view li{
+	float:left;
+	margin:0;
+	margin-bottom:21px;	
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:16px;	
+	color:#A2A2A2;		
+	clear:both;
+	cursor: pointer;
+}
+.list_view li.selected{
+
+	color:#3197cb;		
+}
+
+.gallery_view ul{
+
+	padding:0;
+}
+.gallery_view li{
+	
+	float:left;
+	background-image: url("../images/reserveLabProduct/logo box.png");
+	background-repeat: no-repeat;
+	width:116px;
+	height:73px;
+	margin:0;
+	margin-bottom:25px;	
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:16px;		
+	clear:both;
+	cursor: pointer;
+	display:block;
+	padding-top:20px;
+}
+.gallery_view li.selected{
+
+	background-image: url("../images/reserveLabProduct/selected_logo box.png");		
+}
+.brand_logo{
+	display:block;
+	margin:0 auto;
+	width:90%;
+	max-width: 90%;
+    max-height: 90%;
+}
+

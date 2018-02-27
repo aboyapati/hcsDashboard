@@ -1,0 +1,461 @@
+@CHARSET "ISO-8859-1";
+
+
+html, body {
+	height: 100%;
+	/* font-family: 'Source Sans Pro' */
+	font-family: 'Source Sans Pro'
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body{
+	display: table-cell;
+}
+
+.baseContainer {
+	width: 1026px !important;
+}
+
+img {
+	vertical-align: baseline;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	float: left;
+	display: block;
+}
+
+#content {
+	float: left;
+	display :block;
+	/*min-height:730px;*/
+	padding-bottom:50px; /* Height of the footer element */
+}
+#footer {
+	background-image: url("../images/footer.png");
+	background-repeat: no-repeat;
+	width:1026px;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	float: left;
+	display: block;
+}
+
+.top_bar{
+	width: 1026px !important;
+	background-image:url("../images/header bar new.png");
+	height: 60px;
+	margin-top:5px;
+}
+
+.list_buttons{
+	list-style: none;
+	height: 69px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 30px;
+}
+
+.register_icon{
+	
+	display: block;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	text-decoration:none;
+	float: right;
+	height: 59px;
+	width: 100px;
+	color: white;		
+	vertical-align:baseline;
+	margin-top:20px;
+	margin-right: 20px;
+	font-size: 16px !important;
+}
+.login_icon{
+	display: block;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	text-decoration:none;
+	float: right;
+	height: 59px;
+	width: 100px;
+	color: white;		
+	vertical-align:baseline;
+	margin-top:20px;
+	font-size: 16px !important;
+}
+
+/*----------Main Home Page------------*/
+
+.tek_heading{
+	display:block;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	color:rgb(111,111,111);
+	margin-top: 50px;
+	font-size: 22px;
+}
+
+.tek_intro{
+	display:block;
+	text-align: justify; 
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color:rgb(154,154,154);
+	margin-right:140px;
+	margin-top:57px;
+	margin-left:140px;
+	font-size: 18px;
+}
+
+/*-----------------------------------*/
+
+.header_pane{
+	list-style: none;
+	display:block;
+	margin-top: 50px;
+	margin-left: 5px;	
+}
+
+.back_button{
+	background-image: url("../images/back_button_default.png");
+	background-repeat: no-repeat;
+	float:left;
+	height:31px;
+	width:63px;
+}
+
+.page_name_text{
+	float:left;
+	margin-top:3px;
+	margin-left: 30px;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 18px;
+	color:#203c66;
+}
+
+.input_form{
+	list-style:none;
+	display:block;
+	margin-top: 30px;
+	margin-left: 262px;
+	width:500px;
+	float: left;
+	position: absolute;
+	
+}
+
+.form_text{
+	float:left;
+	text-align:left;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color:#7694b7;
+	width:150px;
+	padding-top: 6px;
+}
+
+
+.form_input_box{
+	float:left;
+	background-image: url("../images/registerlogin/input box.png");
+	background-repeat: no-repeat;
+	width:310px;
+	height:35px;
+	margin-left: 15px;
+	float: left;
+	margin-bottom:20px;
+	border:0;
+	outline:0;
+	color:rgb(111,111,111);	
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:10px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 
+}
+
+*:focus {
+    outline: 0;
+}
+
+/*----------------Login Page---------------*/
+
+.login_button {
+	
+	background-image: url("../images/registerlogin/log in button.png");
+    background-repeat: no-repeat;
+    width : 92px;
+    height :42px;
+    border : none;
+    color : transparent;
+    background-color: transparent;
+    margin-left:166px;
+    cursor: pointer;
+}
+	
+.change_password{
+	margin-left:75px;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color:#7694b7;
+	cursor: pointer;
+}
+
+
+/*--------------Change Password----------------*/
+
+.change_pswd_button{
+	
+	background-image: url("../images/registerlogin/save and log in button.png");
+    background-repeat: no-repeat;
+    width : 140px;
+    height :40px;
+    border : none;
+    color : transparent;
+    margin-left:166px;
+    border: :0px;
+    cursor: pointer;
+}
+
+/*---------------Register Page----------------*/
+
+
+.option_style{
+
+}
+
+.country_input_box{
+	float:left;
+	background-image: url("../images/registerlogin/city dropdown box.png");
+	background-repeat: no-repeat;
+	width:311px;
+	height:36px;
+	margin-left: 15px;
+	margin-bottom: 24px;
+	border:0;
+	outline:0;
+	color:rgb(111,111,111);	
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:10px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	
+}
+
+.state_input_box{
+	float:left;
+	background-image: url("../images/registerlogin/state dropdown box.png");
+	background-repeat: no-repeat;
+	width:163px;
+	height:36px;
+	margin-left: 15px;
+	margin-bottom: 23px;
+	margin-right:14px;
+	border:0;
+	outline:0;
+	color:rgb(111,111,111);	
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:10px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	
+}
+
+
+.zipcode_text{
+	float:left;
+	text-align:left;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color:rgb(162,162,162);
+	width:70px;
+	padding-top: 6px;
+}
+
+.zipcode_input_box{
+	float:left;
+	background-image: url("../images/registerlogin/zipcode_input box.png");
+	background-repeat: no-repeat;
+	width:130px;
+	height:35px;
+	margin-left: 15px;
+	margin-bottom: 23px;
+	border:0;
+	outline:0;
+	color:rgb(111,111,111);	
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:10px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	margin-top:2px;
+}
+
+.register_border{
+	
+	background-image: url("../images/registerlogin/divider.png");
+    background-repeat: no-repeat;
+	border:1px solid #C6C6C6;
+	/*border-bottom-width:2px;*/
+	display:block;
+    margin-top: 35px;
+    width: 483px;
+    float: left;
+    margin-left: -5px;
+}
+
+.agree_checkbox_image{
+	float:left;
+	background-image: url("../images/registerlogin/agree box_default.png");
+	background-repeat: no-repeat;
+	width:24px;
+	height:25px;
+	margin-left: 5px;
+	margin-top: 33px;
+}
+
+.agree_checkbox{
+	float:left;
+	border:0;
+	width:20px;
+	height:20px;
+	margin: 3px;
+}
+
+.agree_text{
+	
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	font-size: 16px;
+	color:rgb(162,162,162);
+	float:left;
+	margin-top: 35px;
+	padding-left: 17px;
+}
+
+.register_button{
+	background-image: url("../images/registerlogin/register button.png");
+    background-repeat: no-repeat;
+    width : 92px;
+    height :42px;
+    border : none;
+    background-color : transparent;
+    border: 0px;
+    margin-top:25px;
+    float: right;
+    margin-right: 25px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.check_box{
+	float:left;
+	margin-top: 32px;
+    display: block;
+    width: 24px;
+    height: 25px;
+    -webkit-appearance: none;
+    outline: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url("../images/registerlogin/agree box_default.png");
+    margin-left: 0px;
+}
+.submit_button {
+	
+	background-image: url("../images/registerlogin/submit button2.png");
+    background-repeat: no-repeat;
+    width : 92px;
+    height :42px;
+    border : none;
+    color : transparent;
+    background-color: transparent;
+    margin-left:166px;
+    cursor: pointer;
+}
+/*
+input[type=checkbox] {
+	
+	float:left;
+	margin-top: 32px;
+    display: block;
+    width: 24px;
+    height: 25px;
+    -webkit-appearance: none;
+    outline: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+input[type=checkbox]:not(:checked) {
+    background-image: url("../images/registerlogin/agree box_default.png");
+}
+*/
+input[type=checkbox]:checked {
+    background-image: url("../images/registerlogin/agree box_accept.png");
+}
+
+
+/*----------Hiding dropdown arrow in FF and IE-----------------*/
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+
+/***************BOOTBOX CSS ISSUES***************/
+
+button, input, select, textarea{
+	font-family: 'Source Sans Pro' !important;
+	font-weight: 600 !important;
+	font-size: 14px !important;
+	
+}
+
+

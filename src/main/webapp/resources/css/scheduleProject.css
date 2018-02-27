@@ -1,0 +1,125 @@
+.scheduleProject{
+	//background-image: url("../images/add_connection/Add a connection pop-up box.png");
+	background-repeat: no-repeat;   
+	height:522px;
+	width:487px;
+	margin-top:-1px;
+	margin-left:-1px;
+	padding-left:30px;
+	color:#7694b7;	
+	font-family: "Source Sans Pro";
+	font-weight:400;
+	font-size:14px;	
+}
+
+.scheduleProject_title{
+	margin:0;
+	padding-top:37px;
+	padding-bottom:32px;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:16px;	
+	color:#203c66;	
+}
+
+.scheduleProject .label_text{
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+}
+
+.scheduleProject .input_box_image{
+    background-image: url("../images/reserveLabProduct/date box.png");
+    background-repeat: no-repeat;
+    width: 89px;
+    height: 36px;
+    padding-left: 7px;
+    padding-top: 7px;
+    float: left;
+    margin-top: -7px;
+}
+.scheduleProject .startCal input{
+ 	background-image: url("../images/reserveLabProduct/date box.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 91px;
+    height: 36px;
+    padding: 0;
+    border: 0;
+    text-align: center;
+}
+
+.scheduleProject .input_box_small_image{
+    background-image: url("../images/add_funds/month_date box.png");
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 37px;
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+	border: 0px;
+	padding-left: 15px;
+}
+
+.scheduleProject .input_box_large{
+	
+	background-image: url("../images/automation/projectName_input box.png");
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 36px;
+    outline: 0;
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+	border: 0px;
+	padding-left: 15px;
+}
+
+.scheduleProject .input_box{
+	width : 200px;
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+	border: 0px;
+}
+
+.scheduleProject .scheduleProject_cancel_button{
+	background-image: url("../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:14px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+	margin-left: 70px;
+}
+
+.scheduleProject .scheduleProject_save_button{
+	background-image: url("../images/add_connection/save button.png");
+	background-repeat: no-repeat;
+	margin-left:115px;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:14px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+.scheduleProject input[disabled]{
+	background-color:white;
+}
+.scheduleProject input, select{
+	font-family: "Source Sans Pro";
+	color:#7694b7;
+	font-weight: 400;
+	font-size:14px;
+	
+}

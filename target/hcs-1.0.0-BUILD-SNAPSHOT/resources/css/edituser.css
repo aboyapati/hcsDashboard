@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+
+.edit_user_heading_text{
+	display:block;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	color:#203c66;
+	margin-top: 37px;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	
+}
+
+.edit_user_label_text{
+	font-size: 16px;
+	color: #7694b7;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	width:150px;
+	float: left;
+	padding-top: 7px;
+	
+}
+
+.edit_user_input_box{
+	background-image: url("../images/add_user/Input box.png");
+	background-repeat: no-repeat;
+	height: 37px;
+	width: 384px;
+	margin-left:10px;
+	float: left;
+	margin-bottom: 12px;
+	border:0;
+	outline:0;
+	color:#7694b7;	
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:10px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 
+	
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	
+	
+}
+
+.edituser_dropdown_box{
+	background-image: url("../images/myprofile/user type_dropdown.png");
+	background-repeat: no-repeat;
+	background-color:white;
+	height: 37px;
+	width: 311px;
+	margin-left:10px;
+	float: left;
+	margin-bottom: 20px;
+	border:0;
+	outline:0;
+	color:#7694b7;	
+	padding-left:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-right:10px;
+	line-height: normal;
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 
+	
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	cursor: pointer;
+	
+	
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.edit_user_back_button{
+	background-image: url("../images/add_user/back button.png");
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 93px;
+	position: absolute;
+	bottom: 50px;
+	float:left;
+	border:0px;
+	cursor: pointer;
+	
+}
+
+.edit_user_save_button{
+	background-image: url("../images/add_user/save button.png");
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 90px;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	float: right;
+	border:0px;
+	background-color: transparent;
+}
+
+

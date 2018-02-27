@@ -1,0 +1,139 @@
+ 	/* --------Popup Window / Mybackups Right Area----------*/    
+ 	
+.popup_right{
+	float:right;
+	background-image: url("../images/reserveLabProduct/right panel.png");
+	background-repeat: no-repeat;
+	width:242px;
+	height:621px;
+	display:inline;
+	font-family: "Source Sans Pro";
+	color:#6f6f6f;
+	padding-left:22px;
+	line-height: 18px;
+}
+
+.right_panel{
+	float:right;
+	background-image: url("../images/reserveLabProduct/right panel.png");
+	background-repeat: no-repeat;
+	width:242px;
+	height:621px;
+	display:inline;
+	font-family: "Source Sans Pro";
+	color:#6f6f6f;
+	padding-left:22px;
+	line-height: 18px;
+	
+}
+.right_panel .title{
+	margin:0;
+	padding-top:37px;
+	font-weight:600;
+	font-size:18px;	
+	padding-bottom: 12px;
+	white-space: nowrap;
+	width:205px;
+
+}
+
+.right_panel .divider{
+	background-image: url("../images/reserveLabProduct/divider.png");
+	background-repeat: no-repeat;
+	width:195px;
+	height:2px;	
+}				
+
+.right_panel .summary{
+	height:412px;
+	margin-left:10px;
+}
+
+.right_panel .summary p{
+	max-width:185px;
+	font-weight:600;
+	font-size:14px;
+	margin-bottom:2px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	height:18px;
+}
+/*
+.right_panel .summary p:HOVER{
+	overflow:visible;
+}*/
+.right_panel .summary span{
+	background:white;
+	font-weight:400;
+	font-size:14px;	
+}
+
+
+.right_panel .credit{
+	height:206px;
+	margin-left:10px;
+}
+
+.right_panel .credit_status{
+	font-size:18px;	
+	font-weight:600;
+	color:#d0021b;
+}
+
+
+.right_panel .buy_credits{
+	background-image: url("../images/reserveLabCatalog/buy credits button.png");
+	background-repeat: no-repeat;
+	background-color:white;
+	width:91px;
+	height:41px;
+	margin-top:18px;
+	border:0;
+	outline:0;
+	display:inline;
+}
+
+/*
+	// Ticket: 35441
+	// Desc: Lab information at right panel goes beyond visible area on hover
+	// Fix: Change hover function to display a new hovering text div
+	// Author: Lei Song
+*/
+.summary_hover {
+    display:none;
+    position:fixed;
+    background-color: white;
+    width: 155px;
+    min-height: 28px;
+	padding:5px;
+    text-align: left;
+    border-radius: 10px;
+    border:1px solid #d5d5d5;
+    z-index:999;
+    font-family: 'Source Sans Pro';
+	font-weight:400;
+	font-size:14px;
+	color:#7694b7;
+	word-wrap:break-word;
+}
+/* Fixed Ticket: 35441*/
+
+/*
+	// Ticket: 35907
+	// Desc: Don't need connection profile field when display backup information
+	// Fix: Remove connection profile from Summary of Mybackups and reservelab/backup modal screen
+	// Author: Lei Song
+*/
+.res_lab_right_panel .right_panel .connectionfield{
+	display:none!important;
+}
+
+.res_lab_right_panel .right_panel  #estCostfield{
+	display:none!important;
+}
+
+.res_lab_right_panel .right_panel .userfield{
+	margin-bottom:22px;
+}
+
+/* Fixed Ticket: 35907*/

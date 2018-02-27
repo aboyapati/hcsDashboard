@@ -1,0 +1,1116 @@
+@CHARSET "ISO-8859-1";
+
+
+.menu_icon_project{
+	background-image: url("../../images/epam/projects_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_project:HOVER{
+	background-image: url("../../images/epam/projects_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_project_selected{
+	background-image: url("../../images/epam/projects_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_testplan{
+	background-image: url("../../images/epam/testPlan_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_testplan:HOVER{
+	background-image: url("../../images/epam/testPlan_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_testplan_selected{
+	background-image: url("../../images/epam/testPlan_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_resources{
+	background-image: url("../../images/epam/resources_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_resources:HOVER{
+	background-image: url("../../images/epam/resources_rollover.png");
+	cursor: pointer;
+}
+
+
+.menu_icon_resources_selected{
+	background-image: url("../../images/epam/resources_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_setup{
+	background-image: url("../../images/epam/setup_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 125px;
+	float: left;		
+}
+
+.menu_icon_setup:HOVER{
+	background-image: url("../../images/epam/setup_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_setup_selected{
+	background-image: url("../../images/epam/setup_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_data{
+	background-image: url("../../images/epam/data_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_data:HOVER{
+	background-image: url("../../images/epam/data_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_data_selected{
+	background-image: url("../../images/epam/data_selected.png");
+	cursor: pointer;
+}
+
+.lower_top_bar{
+	background-image: url("../../images/epam/menu_bar_background.png");
+}
+
+.outline_border{
+	padding-top: 10px;
+}
+
+.outline_border_oneTab{
+	background-image: url("../../images/epam/Dashboard_table_backbox.png");
+	background-repeat:no-repeat;
+}
+
+.outline_border_twoTabs{
+	background-image: url("../../images/epam/Dashboard_table_backbox_twotabs.png");
+	background-repeat:no-repeat;
+}
+
+.outline_border_threeTab{
+	background-image: url("../../images/epam/Dashboard_gray outline box.png");
+	background-repeat:no-repeat;
+}
+.outline_border_fourTabs{
+	background-image: url("../../images/epam/Dashboard_table_backbox_fourtabs.png");
+ 	background-repeat:no-repeat;
+}
+
+.outline_border_fiveTabs{
+	background-image: url("../../images/epam/Dashboard_table_backbox_fivetabs.png");
+ 	background-repeat:no-repeat;
+}
+.project_pane{
+	height: 2px;
+    margin-top: 35px;
+    margin-bottom: 7px;
+    margin-left: 35px;
+    color: #7694b7;
+}
+
+.project_pane .table_header{
+	padding-right: 5px;
+	font-weight: 700;
+}
+
+.project_name{
+		    background-image: url("../../images/lab_detail/Lab Name_box.png");
+		    background-repeat: no-repeat;
+		    width: 293px;
+		    height: 37px;
+		    padding-left: 20px;
+    		line-height: 35px;
+}
+
+
+.testcase_desc{
+    width: 80%;
+    background: transparent;
+    border: 0px;
+    resize: none;
+}
+
+.right_panel{
+	background-image: url("../../images/epam/right panel1.png") !important;
+	
+}
+
+.add_config_icon{
+	background-image: url("../../images/epam/addConfig_default.png");
+	height: 35px;
+	width: 243px;
+	float: right;
+	margin-right: 65px;
+}
+
+.add_config_icon:HOVER {
+	background-image: url("../../images/epam/addConfig_rollover.png");
+	cursor: pointer;
+}
+
+.editconnection .testplan_select{
+	background-image: url("../../images/epam/testplan_dropdown.png");
+	background-repeat: no-repeat;
+	width: 286px;
+	height:36px;
+	border:0;
+	outline:0;	
+	color:#7694b7;	
+	padding:1px 40px 1px 5px;
+	line-height: normal;	
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 	
+   	cursor: pointer;
+}
+
+.project_pane .testplan_select{
+	background-image: url("../../images/epam/testplan_dropdown.png");
+	background-repeat: no-repeat;
+	width: 286px;
+	height:36px;
+	border:0;
+	outline:0;	
+	color:#7694b7;	
+	padding:1px 5px;
+	line-height: normal;	
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 	
+   	cursor: pointer;
+}
+
+
+
+::-webkit-input-placeholder {
+	color: #D5DEE9 !important;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #D5DEE9 !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #D5DEE9 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #D5DEE9 !important;
+}
+
+.phoneList .testplan_select{
+	background-image: url("../../images/epam/smallDropDown.png");
+	background-repeat: no-repeat;
+	width: 186px;
+	height:36px;
+	border:0;
+	outline:0;	
+	color:#7694b7;	
+	padding:1px 5px;
+	line-height: normal;	
+	-webkit-appearance: none;
+  	-moz-appearance:none;
+  	-o-appearance:none;
+   	appearance:none; 	
+   	cursor: pointer;
+}
+
+.editconnection .projectName{
+	background-image: url("../../images/epam/projectName_input box.png");
+	background-repeat: no-repeat;
+    width: 285px;
+    height: 36px;
+    border: 0;
+    padding: 1px 8px;
+    outline: 0;
+    line-height: 34px;
+}
+
+.editconnection .dhcp_ip_box{
+	background-image: url("../../images/epam/dhcp_ip.png");
+	background-repeat: no-repeat;
+	width: 127px;
+    height: 35px;
+    border: 0;
+    padding: 1px 10px;
+    outline: 0;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.editconnection .dhcp_netmask_box{
+	background-image: url("../../images/epam/dhcp_netmask.png");
+	background-repeat: no-repeat;
+	width: 50px;
+    height: 35px;
+    border: 0;
+    padding: 1px 10px;
+    outline: 0;
+    line-height: 34px;
+    margin-left: 10px;
+}
+
+
+.phoneList .projectName{
+	background-image: url("../../images/epam/small_input box.png");
+	background-repeat: no-repeat;
+    width: 185px;
+    height: 36px;
+    border: 0;
+    padding: 1px 8px;
+    outline: 0;
+    line-height: 34px;
+}
+
+.editconnection .nonEditable{
+	background-image: url("../../images/epam/nonEditableTextBox.png");
+	background-repeat: no-repeat;
+    width: 285px;
+    height: 36px;
+    border: 0;
+    padding: 1px 8px;
+    outline: 0;
+    line-height: 34px;
+}
+
+.dhcp_ip_box_disabled{
+	background-image: url("../../images/epam/dhcp_ip_disabled.png");
+	background-repeat: no-repeat;
+	width: 127px;
+    height: 35px;
+    border: 0;
+    padding: 1px 10px;
+    outline: 0;
+    line-height: 34px;
+    margin-right: 9px;
+}
+
+/* Icon for epam Create project button*/
+.create_Project_icon{
+	background-image: url("../../images/epam/createProject_default.png");
+	height: 34px;
+    width: 175px;
+    float: right;
+    margin-right: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.create_Project_icon:HOVER {
+	background-image: url("../../images/epam/createProject_hover.png");
+	cursor: pointer;
+}
+
+.site_scan_icon{
+	background-image: url("../../images/epam/dhcp_scan_default.png");
+	height: 34px;
+    width: 175px;
+    float: right;
+    margin-right: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.site_scan_icon:HOVER {
+	background-image: url("../../images/epam/dhcp_scan_hover.png");
+	cursor: pointer;
+}
+
+.view_scan{
+	background-image: url("../../images/epam/view_scan_results.png");
+	float: left;
+	height: 34px;
+    width: 151px;
+    margin-top: 60px;
+    margin-left: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.new_scan{
+	background-image: url("../../images/epam/new_scan.png");
+	float: left;
+	height: 34px;
+    width: 151px;
+    margin-top: 60px;
+    margin-left: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.scan_cancel{
+	background-image: url("../../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+    float: left;
+    width: 81px;
+    height: 41px;
+    margin-top: 65px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.scan_results_back{
+    background-image: url("../../images/add_user/back button.png");
+    background-repeat: no-repeat;
+    height: 37px;
+    width: 80px;
+    float: left;
+    margin-left: 190px;
+    cursor: pointer;
+}
+
+.exit_scan_results{
+	background-image: url("../../images/add_funds/Exit button.png");
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 37px;
+    margin-left: 75px;
+    float: left;
+    cursor: pointer;
+}
+
+.epam_logo {
+    background-image: url("../../images/epam/onPoint.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 35px;
+    width: 140px;
+    margin-top: 13px;
+    float: left;
+}
+
+.info_pane{
+	list-style: none;
+	height: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	
+}
+
+/* Icon for Epam epam Add Provider button*/
+.add_Provider_icon{
+	background-image: url("../../images/epam/addProvider_default.png");
+	height: 34px;
+	width: 163px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_Provider_icon:HOVER {
+	background-image: url("../../images/epam/addProvider_hover.png");
+	cursor: pointer;
+}
+
+/* Icon for Epam epam Add Reseller button*/
+.add_Reseller_icon{
+	background-image: url("../../images/epam/addReseller_default.png");
+	height: 34px;
+	width: 156px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+.add_Reseller_icon:HOVER {
+	background-image: url("../../images/epam/addReseller_hover.png");
+	cursor: pointer;
+}
+
+/* Icon for Epam epam Add Reseller button*/
+.add_Customer_icon{
+	background-image: url("../../images/epam/addCustomer_default.png");
+	height: 34px;
+	width: 173px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+.add_Customer_icon:HOVER {
+	background-image: url("../../images/epam/addCustomer_hover.png");
+	cursor: pointer;
+}
+/* Icon for Epam epam Add PBX button*/
+.add_Pbx_icon{
+	background-image: url("../../images/epam/addCallServer_default.png");
+	height: 34px;
+	width: 184px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_Pbx_icon:HOVER {
+	background-image: url("../../images/epam/addCallServer_hover.png");
+	cursor: pointer;
+}
+
+.add_site_icon{
+	background-image: url("../../images/epam/addSite_default.png");
+	height: 34px;
+	width: 130px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_site_icon:HOVER {
+	background-image: url("../../images/epam/addSite_hover.png");
+	cursor: pointer;
+}
+
+.add_package_icon{
+	background-image: url("../../images/epam/addPackage_default.png");
+	height: 34px;
+	width: 167px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_package_icon:HOVER {
+	background-image: url("../../images/epam/addPackage_hover.png");
+	cursor: pointer;
+}
+
+/* Icon for Epam  Add Device button*/
+.add_device_icon{
+	background-image: url("../../images/epam/addPhone_default.png");
+	height: 34px;
+	width: 145px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_device_icon:HOVER {
+	background-image: url("../../images/epam/addPhone_hover.png");
+	cursor: pointer;
+}
+
+.add_phonelist_icon{
+	background-image: url("../../images/epam/AddPhoneList.png");
+	height: 34px;
+	width: 180px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_phonelist_icon:HOVER {
+	background-image: url("../../images/epam/addPhoneList_hover.png");
+	cursor: pointer;
+}
+
+.inter_createButton {
+	list-style: none;
+}
+
+.menu_icon_hierarchy{
+	background-image: url("../../images/epam/hierarchy_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_hierarchy:HOVER{
+	background-image: url("../../images/epam/hierarchy_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_hierarchy_selected{
+	background-image: url("../../images/epam/hierarchy_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_customer{
+	background-image: url("../../images/epam/customers_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_customer:HOVER{
+	background-image: url("../../images/epam/customers_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_customer_selected{
+	background-image: url("../../images/epam/customers_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_device{
+	background-image: url("../../images/epam/devices_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_device:HOVER{
+	background-image: url("../../images/epam/devices_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_device_selected{
+	background-image: url("../../images/epam/devices_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_pbx{
+	background-image: url("../../images/epam/pbx_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_pbx:HOVER{
+	background-image: url("../../images/epam/pbx_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_pbx_selected{
+	background-image: url("../../images/epam/pbx_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_admin{
+	background-image: url("../../images/epam/adminMenu_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_admin:HOVER{
+	background-image: url("../../images/epam/adminMenu_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_admin_selected{
+	background-image: url("../../images/epam/adminMenu_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_inventory{
+	background-image: url("../../images/epam/inventory_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_inventory:HOVER{
+	background-image: url("../../images/epam/inventory_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_inventory_selected{
+	background-image: url("../../images/epam/inventory_selected.png");
+	cursor: pointer;
+}
+
+.menu_icon_automation{
+	background-image: url("../../images/epam/automation_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_automation:HOVER{
+	background-image: url("../../images/epam/automation_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_automation_selected{
+	background-image: url("../../images/epam/automation_selected.png");
+	cursor: pointer;
+}
+
+.back_button{
+	background-image: url("../../images/epam/Back button.png");
+    background-repeat: no-repeat;
+    margin-top: -25px;
+ 
+    width: 91px;
+    height: 31px;
+    float: left;
+} 
+
+.download_Report{
+	background-image: url("../../images/epam/D_L Report_default.png");
+	height: 34px;
+	width: 182px;
+	float: right;
+	margin-right: 13px;
+	margin-top:10px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.download_Report:HOVER {
+	background-image: url("../../images/epam/D_L Report_selected.png");
+	cursor: pointer;
+}
+
+.dashboard_anchor {
+	color: #203c66 !important;
+    display: inline-block;
+    line-height: 1;
+    font-style: normal;
+    font-weight: normal;
+    font-family: Source Sans Pro; 
+    font-size: large;
+    text-decoration: none !important;
+}
+
+.threshold_inputBox {
+	background-image: url("../../images/epam/input box.png");
+	width: 70px;
+}
+
+.license_accept_button{
+	background-image: url("../../images/epam/accept button.png");
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	bottom: 60px;
+	right: 300px;
+	float: right;
+	border:0px;
+	background-color: transparent;
+}
+
+.license_decline_button{
+	background-image: url("../../images/epam/decline button.png");
+	background-repeat: no-repeat;
+	height: 90px;
+	width: 90px;
+	position: absolute;
+	bottom: 60px;
+	right: 420px;
+	float: right;
+	border:0px;
+	background-color: transparent;
+}
+
+.onlineHelp_decline_button{
+	background-image: url(../../images/epam/button_no-thanks.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    bottom: 60px;
+    right: 415px;
+    float: right;
+    border: 0px;
+    background-color: transparent;
+}
+
+.onlineHelp_accept_button{
+	background-image: url(../../images/epam/button_yes.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 60px;
+    right: 288px;
+    float: right;
+    border: 0px;
+    background-color: transparent;
+}
+
+/* Ticket: 296
+Desc: Customer name overlapping the drop down boundary
+Fix: The text is truncated of it goes beyond 200px of width.
+Author: Kaushik*/
+.project_name p{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+/* icon of the back button */
+.back_to_projects{
+	background-image: url("../../images/epam/back_to_projects.png");
+	background-repeat: no-repeat;
+	margin-right: 35px;
+	width: 158px;
+    height: 35px;
+    float: right; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:3px;
+}
+
+.customerName{
+	width: 20%; 
+	float: left; 
+	height: 20px; 
+	padding-left: 40px; 
+	text-align: left;
+	color: #203c66; 
+	font-family: 'Source Sans Pro'; 
+	font-weight: 600; font-size: 19px;
+	white-space: nowrap;
+}
+
+/* .menu_icon_testplan{
+	background-image: url("../../images/epam/testPlan_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_testplan:HOVER{
+	background-image: url("../../images/epam/testPlan_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_testplan_selected{
+	background-image: url("../../images/epam/testPlan_selected.png");
+	cursor: pointer;
+} */
+
+.summaryTable{
+	width: 960px; 
+	margin-left: 35px;
+}
+.summaryTable td{
+	font-family: 'Source Sans Pro'; 
+	color: #203c66; 
+	font-weight: 700; 
+	border:3px solid #7694b7; 
+	padding: 5px; 
+}
+.summaryTable td p{
+	font-weight: 500;
+}
+.lab_info_hover {
+    display:none;
+    position:fixed;
+    background-color: white;
+    width: 280px;
+    height: 48px;
+	padding:5px;
+    text-align: left;
+    border-radius: 10px;
+    border:1px solid #d5d5d5;
+    z-index:999;
+}
+
+.lab_info_hover p{
+	margin:0;
+	padding:0;
+	line-height:18px;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	font-size:14px;
+	color:#8
+}
+.menu_icon_configuration{
+	background-image: url("../../images/epam/conf_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_configuration:HOVER{
+	background-image: url("../../images/epam/conf_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_configuration_selected{
+	background-image: url("../../images/epam/conf_selected.png");
+	cursor: pointer;
+}
+
+.help_button{
+	background-image: url(../../images/epam/help/helpButton.png);
+    height: 40px;
+    width: 64px;
+    float: right;
+    margin-right: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 11px;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 11px;
+    border-top-left-radius: 5px;
+	background-position-x:center; 
+}
+
+.editconnection_buttons .edit_cancel_createProject_button{
+	background-image: url("../	../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+.editconnection_buttons .edit_cancel_runProject_button{
+	background-image: url("../	../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+.editconnection_buttons .edit_cancel_uploadFile_button{
+	background-image: url("../	../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+.editconnection_buttons .edit_cancel_runAllProject_button{
+	background-image: url("../	../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+/* Icon for Epam epam Add Provider button*/
+.add_Maintenance_icon{
+	background-image: url("../../images/epam/addMaintenance_default.png");
+	height: 34px;
+	width: 163px;
+	float: right;
+	margin-right: -90px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_Maintenance_icon:HOVER {
+	background-image: url("../../images/epam/addMaintenance_hover.png");
+	cursor: pointer;
+}
+.import_device_icon{
+	background-image: url("../../images/epam/import_default.png");
+	height: 34px;
+	width: 145px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.import_device_icon:HOVER {
+	background-image: url("../../images/epam/import_hover.png");
+	cursor: pointer;
+}
+.export_device_icon{
+	background-image: url("../../images/epam/export_default.png");
+	height: 34px;
+	width: 145px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.export_device_icon:HOVER {
+	background-image: url("../../images/epam/export_hover.png");
+	cursor: pointer;
+}
+
+.modal{
+  	overflow-y:auto;
+}
+.bootbox-body{
+	padding-right: 44px;
+}
+.editconnection_buttons .edit_cancel_importSpreadsheet_button{
+	background-image: url("../	../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+
+.editconnection_buttons .edit_cancel_onPointLinkBuilds_button{
+	background-image: url("../	../images/add_connection/cancel button.png");
+	background-repeat: no-repeat;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+}
+.add_component_icon{
+	background-image: url("../../images/epam/addComponent_default.png");
+	height: 34px;
+	width: 194px;
+	float: right;
+	margin-right: 2px;
+	border-top-right-radius: 13px;
+	border-bottom-right-radius: 13px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_component_icon:HOVER {
+	background-image: url("../../images/epam/addComponent_hover.png");
+	cursor: pointer;
+}
+.add_componentType_icon{
+	background-image: url("../../images/epam/addComponentType_default.png");
+	height: 34px;
+	width: 246px;
+	float: right;
+	margin-right: 8px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+.add_componentType_icon:HOVER {
+	background-image: url("../../images/epam/addComponentType_hover.png");
+	cursor: pointer;
+}
+/* Icon for hcs provisioning*/
+.add_Data_Center_icon{
+	background-image: url("../../images/epam/addDataCenter_default.png");
+	height: 34px;
+	width: 193px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+.add_Data_Center_icon:HOVER {
+	background-image: url("../../images/epam/addDataCenter_hover.png");
+	cursor: pointer;
+}
+
+.menu_icon_provisioning{
+	background-image: url("../../images/epam/provisioning_default.png");
+	height: 59px;
+	background-repeat: no-repeat;
+	width: 160px;
+	float: left;		
+}
+
+.menu_icon_provisioning:HOVER{
+	background-image: url("../../images/epam/provisioning_rollover.png");
+	cursor: pointer;
+}
+
+.menu_icon_provisioning_selected{
+	background-image: url("../../images/epam/provisioning_selected.png");
+	cursor: pointer;
+}
+
+/* Icon for HCS Admin*/
+.add_OnDemandMonitor_icon{
+	background-image: url("../../images/hcs/onDemandMonitor_default.png");
+	height: 34px;
+	width: 232px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+.add_OnDemandMonitor_icon:HOVER {
+	background-image: url("../../images/hcs/onDemandMonitor_hover.png");
+	cursor: pointer;
+}

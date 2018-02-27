@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+.main-holder-admin{
+	/* width:95%; */
+	width:90%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.content-admin{
+	width:81%;
+	float: right;
+	padding: 35px 0 46px;
+	position: relative;
+}
+
+.content-admin h2{
+	color:#bf0e12;
+	font:31px/34px Arial, Helvetica, sans-serif;
+	margin:0 0 18px;
+}
+.content-admin p{margin:0 0 12px;}
+
+
+#basicEquipment_add .customers .img-holder,
+#basicEquipment_edit .customers .img-holder, 
+#basicEquipment_delete .customers .img-holder{
+	width: 150px;
+}
+.generic_class {
+ border:none;
+	outline:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    cursor:pointer;
+    margin: 0px auto;
+    clear:both;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+    /* font-weight:bold; */
+    font-family: AmericanSan;
+    font-size:15px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+   /*  background:#4797ED; */
+   background: #c00e12;
+	
+}
+
+.fg-button.ui-button.ui-state-default {
+	margin:0 8px;
+}

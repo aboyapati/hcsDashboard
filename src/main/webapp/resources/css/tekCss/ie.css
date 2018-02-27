@@ -1,0 +1,34 @@
+.content { float: left; }
+.body { padding: 5px; }
+.left,
+.right,
+.top-left,
+.top-right,
+.top,
+.bottom-left,
+.bottom-right,
+.bottom {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.left,
+.right {
+	height: expression(this.parentNode.parentNode.offsetHeight - 5 + "px");
+	top: 5px;
+}
+.bottom-left,
+.bottom-right,
+.bottom { top: expression(this.parentNode.parentNode.offsetHeight + "px"); }
+.top,
+.bottom {
+	left: 5px;
+	width: expression(this.parentNode.parentNode.offsetWidth - 10 + "px");
+}
+.right,
+.top-right,
+.bottom-right { left: expression(this.parentNode.parentNode.offsetWidth - 5 + "px"); }
+.customer-box span{
+	display:block;
+	margin-top:expression(this.parentNode.offsetHeight > this.offsetHeight ? ((this.parentNode.offsetHeight-this.offsetHeight)/2 + "px") : "0");
+}

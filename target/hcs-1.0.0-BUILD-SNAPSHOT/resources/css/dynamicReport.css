@@ -1,0 +1,206 @@
+
+
+	    .dynamicReport_scrollArea{
+	    	width: 942px;
+	    	padding-left:26px;
+	    	margin-top:28px;
+   			height: 577px;
+    		overflow-x: hidden;
+    		overflow-y:auto;
+
+	    }
+	    .site_catalog{
+	    
+	    	overflow: hidden;
+	    }
+	    
+	    .dynamicReport_scrollArea h3 {
+		    padding: 0;
+		    margin:0 0 5px 15px;
+		    font-family: "Source Sans Pro";
+		    font-weight: 600;
+		    font-size: 20px;
+		    color: #203c66;
+		}
+		
+		.dynamicReport_scrollArea .unavailable_msg{
+			font-family: "Source Sans Pro";
+		    font-weight: 400;
+		    font-size: 16px;
+			color: #337ab7;
+			margin-left: 15px;
+    		margin-top: 8px;
+		}
+		.dynamicReport_scrollArea .site_divider {
+		    
+		    height: 2px;
+		    border-top: 2px solid #7694b7;
+		    margin: 24px auto 22px 9px;
+		    width: 854px;
+		}
+
+	    .chart_one_proj{
+	    	float: left;
+	    	width:400px;
+	    	height:230px;
+	        border: lightskyblue solid 1px;
+	        border-radius: 5px;
+	        margin: 8px 18px;
+	        padding: 0 5px;
+	        overflow:hidden;
+	        position: relative;
+	        list-style: none;  
+	    }
+		
+		.doughnutchart_frame{
+			width: 172px;
+		    margin-top: 36px;
+		    float: left;
+		    overflow: visible;
+		    cursor:pointer;
+	    }
+    
+	    .doughnutchart{
+		    width:190px;
+	    }
+	    	    
+	    .chart_detail_info{
+	    	float:right; 
+	    	margin:7px 14px 0 0;
+	    	width: 188px;
+	    	height:110px;
+	    	text-align:left;
+	    	color: #337ab7 !important;
+	    	font-family: "Source Sans Pro";
+	    	font-size:16px;
+	    	font-weight: 600;
+	    
+	    }
+	    .chart_detail_info td{	    
+	    	margin:2px;   
+	    	text-overflow: ellipsis;
+   			white-space: nowrap;
+   			overflow: hidden;
+   			line-height: 24px !important;
+	    }
+
+	    .chart_detail_info .matrix{	    
+	    	text-align:right;
+	    	width: 42px;
+	    	padding-right: 8px;
+	    }
+	    
+ 	/** Doughnut Chart Legend**/	    
+	     .chart-legend{
+	     	margin:10px 5px 0 165px;
+	    	font-size: 10px;
+	    	height:54px;
+	     }
+		 .chart-legend ul{
+			border: grey solid 1px;
+			width:66px;
+			padding: 5px 3px 2px 0px;
+			text-align: left;
+		}	   
+		 .chart-legend li{
+		    display: block;
+		    line-height:14px;
+    		white-space: nowrap;
+		} 
+ 		.chart-legend li span{
+		    display: inline-block;
+		    width: 10px;
+		    height: 10px;
+		    margin-right: 6px;
+		} 
+	/***********************************/
+	
+		.editconnection .filter_select{
+		    background-image: url("../images/epam/smallDropDown.png");
+		    background-repeat: no-repeat;
+		    width: 186px;
+		    height: 36px;
+		    border: 0;
+		    outline: 0;
+		    color: #7694b7;
+		    padding: 1px 5px;
+		    line-height: normal;
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+		    -o-appearance: none;
+		    appearance: none;
+		    cursor: pointer;
+		
+		}
+	
+		.report_period_select {
+		    width: 414px;
+		    height:36px;
+		    overflow:hidden;
+
+		}
+		    		
+		.report_period_select input {
+		    background-image: url("../images/reserveLabProduct/date box.png");
+		    background-repeat: no-repeat;
+		    background-color: transparent;
+		    width: 91px;
+		    height: 36px;
+		    padding: 0;
+		    border: 0;
+		    text-align: center;
+		    font-family: "Source Sans Pro";
+	    	font-size:14px;
+	    
+		}
+		.ui-datepicker{
+		 	position: fixed!important; 
+			width:229px;
+		}
+		
+		/****Stack Bar Modal*****/
+		
+		.chart_div{
+	    	float: left;
+	    	width: 500px;
+	    	padding: 10px 15px;
+	    	height:380px;
+	    	margin-top: 35px;
+	    	font-family: "Source Sans Pro";
+	    	color: #203c66;
+/*     		border-left: grey solid 1px;
+    		border-right: grey solid 1px; */
+	    }
+	    
+	    .chart_div .barchart{
+		    width:500px;
+		    height:300px;
+	    }
+	    
+	    .chart_div h3{
+	    	text-align: center;
+	    	margin-bottom: 20px;
+	    	font-weight: 600;
+		    font-size: 20px;
+		    color: #203c66;
+	    }
+    
+	    .summary_report_area{
+		   /*  width:1300px; */
+		    margin:auto;
+		    text-align: center;
+	    }
+	    
+	    .summary_cancel_button {
+		   background-image: url("../images/add_connection/cancel button.png");
+		   background-repeat: no-repeat;
+		   float: right;
+		   width: 81px;
+		   height: 36px;
+		   padding:0;
+		   margin-top: 14px;
+		   position: relative;
+		   bottom: 0;
+		   cursor: pointer;
+		   margin-right: 68px;
+		}

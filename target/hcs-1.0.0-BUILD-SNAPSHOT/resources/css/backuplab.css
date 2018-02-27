@@ -1,0 +1,68 @@
+.backup_lab{
+	/*background-image: url("../images/backup_lab/backup Now_pop-up now box.png");*/
+	background-repeat: no-repeat;
+	width:410px;
+	height:258px;
+	position:absolute;		
+}
+.backup_lab_form{
+	margin:13px 19px 0 19px;
+    color: #7694b7;
+    font-family: 'Source Sans Pro';	
+}
+.backup_lab_form h3{;
+    font-weight:600;
+    line-height: 18px;
+    font-size:18px;	
+    margin:0 0 20px 1px;
+}
+
+.backup_lab_form p{;
+    font-weight:400;
+    font-size:16px;	
+    line-height: 16px;
+    margin:0;    
+}
+.backup_lab_form input{
+	background-image: url("../images/backup_lab/back up name_box.png");
+	background-repeat: no-repeat;
+	width:371px;
+	height:23px;
+	margin:5px 0 12px 0;
+	padding-left:5px;
+	border:0
+}
+
+.backup_lab_form textarea{
+	background-image: url("../images/backup_lab/backup description_box.png");
+	background-repeat: no-repeat;
+	width:371px;
+	height:62px;
+	resize: none;
+	outline:0;
+	border:0;
+	margin:5px 0 16px 0;
+	padding-left:5px;
+}
+
+.backup_lab_form .cancel_button{
+	background-image: url("../images/backup_lab/cancel_button.png");
+	background-repeat: no-repeat;
+	margin-right:20px;
+	width: 90px;
+	height:40px;	
+	float:left;	
+	cursor: pointer;
+}
+.backup_lab_form .confirm_button{
+	background-image: url("../images/backup_lab/confirm_button.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 40px;	
+	float:right;
+	cursor: pointer;	
+}
+
+
+
+

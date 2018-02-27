@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+http://www.springframework.org/schema/security
+http://www.springframework.org/schema/security/spring-security-3.2.xsd">
+
+<http auto-config="true" use-expressions="true">
+
+ 		<intercept-url pattern="/login" access="permitAll"/>
+		<intercept-url pattern="/loginError" access="permitAll"/>
+		<intercept-url pattern="/autologin" access="permitAll"/>
+		<intercept-url pattern="/loginError" access="permitAll"/>
+		<intercept-url pattern="/forgot" access="permitAll"/>
+		<intercept-url pattern="/home" access="permitAll"/>
+		<intercept-url pattern="/welcome" access="permitAll"/>
+		<intercept-url pattern="/" access="permitAll"/>
+
+		<intercept-url pattern="/*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/dashboard*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		
+		<intercept-url pattern="/dataCenterDashboard*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/componentDashboard*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/componentDetailDashboard*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/dataCenter*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/dataCenter/add" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/dataCenter/update" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/dataCenter/delete" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/provisioning*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/components*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/component*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/component/add" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/component/update" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/component/getVersion" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/component/delete" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/componentType*" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/componentType/add" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/componentType/update" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/componentType/delete" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/onDemandMonitoring" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		<intercept-url pattern="/admin/startOnDemandMonitoring" access="hasAnyRole('ROLE_ADMIN','ROLE_CUSTOMER_USER','ROLE_CUSTOMER_ADMIN')" />
+		
+		<access-denied-handler error-page="/denied"/> 
+
+		<form-login login-page="/login"		
+  		       default-target-url="/dashboard"
+			   authentication-failure-url="/loginError" 
+			   authentication-success-handler-ref="postLoginService"/>
+			   
+		<custom-filter ref="logoutFilter" position="FIRST"/>	
+			
+</http>
+
+	<authentication-manager alias="authenticationManager">
+	  <authentication-provider user-service-ref="userAuthService">
+	  <!-- Enable if password is encrypted. -->
+	  <!-- 	<password-encoder hash="bcrypt"/> -->
+      </authentication-provider>
+	</authentication-manager>
+	
+	<beans:bean id="logoutHandler" class="com.tekvizion.hcs.projectmanagement.security.MyLogoutHandler"/>
+	
+	<beans:bean id="logoutFilter" class="org.springframework.security.web.authentication.logout.LogoutFilter">
+		<beans:constructor-arg index="0" value="/login"/>
+		<beans:constructor-arg index="1">
+			<beans:list>
+				<beans:ref bean="logoutHandler"/>
+				<beans:bean id="securityContextLogoutHandler" class="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler" />
+			</beans:list>
+		</beans:constructor-arg>
+		<beans:property name="filterProcessesUrl" value="/logout"/>
+	</beans:bean>
+
+	<beans:bean id="userAuthService" class="com.tekvizion.hcs.projectmanagement.security.UserAuthenticationService">
+	</beans:bean>	
+	
+	<beans:bean id="postLoginService" class="com.tekvizion.hcs.projectmanagement.security.LoginPostValidationHandler">
+ 		<beans:property name="defaultTargetUrl" value="/dashboard"/>
+  		<beans:property name="targetUrlParameter" value="spring-security-redirect"/>	
+	</beans:bean>	
+</beans:beans>

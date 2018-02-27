@@ -1,0 +1,94 @@
+ 	/* --------Popup Window / Mybackups Right Area----------*/    
+.alert_overlay {
+    display: none;
+    opacity: .8;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+   width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background:none;
+}
+  	
+.alert_modal{
+	background-image: url("../images/alert/alters_notifications banner.png");
+	background-repeat: no-repeat;
+	font-family: "Source Sans Pro";
+	color:#6f6f6f;	
+	width:500px;
+	height:309px; 
+	padding:59px 0;	
+  margin: 70px auto;
+  border-radius: 5px;
+  position: relative;	
+}
+
+.alert_modal .alert_header{
+	margin:0 124px;
+	font-weight:600;
+	font-size:18px;	
+	padding-bottom: 12px;
+}
+
+.alert_modal .alert_body{
+	font-weight:400;
+	font-size:18px;		
+	width:252px;
+	height:75px;
+	padding:0;
+	margin:0 124px;
+	border:0;
+	resize: none;
+	outline:0;
+	background:none;
+}
+
+.alert_modal .alert_footer{
+
+	display:flex;
+	margin-top:40px;
+}
+
+.alert_modal input[type=button]{
+	width:138px;
+	height:41px;
+	margin:0 auto;
+	border:0;
+	outline:0;
+	display:inline;		
+	font-family: "Source Sans Pro";
+	color:white;
+	font-weight: 600;
+	font-size: 14px;	
+}
+.bootbox button{
+	width:138px;
+	height:41px;
+	margin:0 auto;
+	border:0;
+	outline:0;
+	display:inline;		
+	font-family: "Source Sans Pro";
+	color:white;
+	font-weight: 600;
+	font-size: 14px;	
+	
+}
+
+.bootbox .blue_button{
+	background-image: url("../images/alert/blue_default.png");
+	background-repeat: no-repeat;
+}
+.bootbox .blue_button:HOVER{
+	background-image: url("../images/alert/blue_hover.png");
+}
+
+.bootbox .grey_button{
+	background-image: url("../images/alert/grey_default.png");
+	background-repeat: no-repeat;
+}
+.bootbox .grey_button:HOVER{
+	background-image: url("../images/alert/grey_hover.png");
+}
+

@@ -1,0 +1,131 @@
+.backup_lab_storage_calc{
+	/*background-image: url("../images/backup_lab/backup Now_pop-up now box.png");*/
+	background-repeat: no-repeat;
+	width:448px;
+	height:348px;
+	position:absolute;	
+	
+}
+.backup_lab_storage_calc_form{
+    color: #7694b7;
+    font-family: 'Source Sans Pro';	
+    float: left;
+    width:408px;
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.backup_lab_storage_calc .storage_header{
+	font-weight:600;
+    line-height: 18px;
+    font-size:18px;	
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro';	
+   	color: #7694b7;	
+}
+
+.backup_lab_storage_calc p{;
+    font-weight:600;
+    font-size:17px;	
+    line-height: 14px;
+   	padding-left: 20px;
+   	font-family: 'Source Sans Pro';	
+   	color: rgb(162,162,162);	
+}
+
+.backup_lab_storage_calc_form .backupStorageText{
+	font-size: 16px;
+    color: rgb(162,162,162);
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    width: 180px;
+    float: left;
+    height: 45px;
+}
+
+.backup_lab_storage_calc_form .backupStorageInputText{
+	height: 50px;
+	width: 225px;
+	float: left;
+	font-size: 16px;
+}
+
+.backup_lab_storage_calc_form input{
+	float:left;
+	background: transparent;
+	border: 0px;
+	width:150px;
+	line-height:36px;
+	height:36px;
+	padding: 1px 16px;
+	color: rgb(154,154,154);
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+
+.backup_lab_storage_calc_form .spinner_control{
+	background-image: url("../images/costcalculator/increase_decrease control_button.png");
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 36px;
+    float: left;
+    margin-top: -5px;
+}
+
+.backup_lab_storage_calc_form .spinner_control input{
+	background-image: url("../images/costcalculator/increase_decrease control_button.png");
+	background-repeat: no-repeat; 	
+	height:36px;
+	width:65px;
+	padding:0px 10px;	
+	margin:0;
+	float: left;
+}
+
+
+
+.backup_lab_storage_calc_form .ui-spinner{
+	border:none;
+}
+
+.backup_lab_storage_calc .cancel_button{
+	background-image: url("../images/backup_lab/cancel_button.png");
+	background-repeat: no-repeat;
+	margin-right:20px;
+	width: 90px;
+	height:40px;	
+	float:left;	
+	cursor: pointer;
+	margin-left: 100px;
+}
+.backup_lab_storage_calc .confirm_button{
+	background-image: url("../images/backup_lab/confirm_button.png");
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 40px;	
+	float:right;
+	margin-right:100px;
+	cursor: pointer;	
+}
+
+
+.backup_lab_storage_calc_form .ui-spinner{
+	border:none;
+}
+.backup_lab_storage_calc_form .ui-spinner a.ui-spinner-button{
+	border:none;
+}
+.backup_lab_storage_calc_form .ui-spinner-button{
+	height:10px;
+	border:0;
+}
+
+.backup_lab_storage_calc_form .ui-spinner-up {
+    top: 4;
+}
+
+.backup_lab_storage_calc_form .ui-spinner-down {
+    bottom:4;
+}

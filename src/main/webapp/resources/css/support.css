@@ -1,0 +1,432 @@
+@CHARSET "UTF-8";
+
+        /*  Support Page Left Area  */
+        
+.support_left{
+
+    float: left;
+    width: 160px;
+    margin:0;
+	padding:0;
+    margin-left:43px;
+	color:#203c66;
+	font-family: 'Source Sans Pro';
+	font-size:400;
+	font-size:14px;	
+	margin-top: 55px;
+}
+.support_right{
+    float: left;
+    margin:0;
+	padding:0;
+	margin-top:148px;
+    overflow: hidden;	
+	color:#7694b7;
+	font-family: 'Source Sans Pro';
+	font-size:400;
+	font-size:14px;	
+}
+.support_left th,td{
+	font-weight: normal;
+	text-align:left;
+	color:#203c66;
+}
+.support_right th,td{
+	font-weight: normal;
+	text-align:left;
+	color:#203c66;
+}
+.support_head{
+
+	font-weight:600;
+	font-size:18px;
+	margin: 30px 0 15px 31px;
+	text-align:left;
+}
+
+.support_list{
+	padding:0;
+	height:92px;
+	margin-top: 40px
+}
+
+.support_list ul{
+	padding:0;
+	margin:0;
+}
+
+.support_list li{
+	display:inline;
+ 	float:left;
+ 	color:#203c66;
+	border-bottom:white solid 1px;
+	margin:0;
+}
+.documentation{	
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Documentation_button_default.png");
+	
+}
+.documentation:HOVER{
+	cursor: pointer;
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Documentation_button_hover.png");
+}
+
+.documentation_selected{
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Documentation_button_selected.png");
+	
+}
+
+.releaseNotes{
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Release Notes_button_default.png");
+}
+.releaseNotes:HOVER{
+	cursor: pointer;
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Release Notes_button_hover.png");
+}
+
+.releaseNotes_selected{
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Release Notes_button_selected.png");
+}
+
+.contactUs{
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Contact Us_button_default.png");
+}
+.contactUs:HOVER{
+	cursor: pointer;
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Contact Us_button_hover.png");
+}
+
+.contactUs_selected{
+	height: 30px;
+	width: 160px;
+	background-image: url("../images/support/Contact Us_button_selected.png");
+}
+
+.support_product{
+	background-image: url("../images/support/Our Products_Column.png");
+	width:160px;
+	height:370px;
+	margin-top:13px;
+	overflow: hidden;
+}
+
+.support_product table{
+	width:129px;
+	margin-left:15px;
+	border-spacing:0;
+}
+
+.support_product th{
+	font-size: 18px;
+	border-bottom:2px solid #7694b7;
+	padding-top:9px;	
+	padding-bottom:9px;	
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+}
+
+.support_product td{
+	padding-top:13px;
+	padding-bottom:12px;
+	font-size:14px;
+	line-height:10px;	
+	font-family: 'Source Sans Pro';
+	font-weight:300;
+}
+
+.related_links{
+	background-image: url("../images/support/Related links_Column.png");
+	width:160px;
+	height:115px;
+	margin-top:152px;
+}
+
+.related_links table{
+	width:129px;
+	margin-left:15px;
+	border-spacing:0;
+}
+
+.related_links th{
+	font-size: 18px;
+	border-bottom:2px solid #7694b7;
+	padding-top:9px;	
+	padding-bottom:9px;	
+	font-family: 'Source Sans Pro';
+}
+
+.related_links td{
+	padding-top:13px;
+	padding-bottom:12px;
+	font-size:14px;
+	line-height:10px;	
+	font-family: 'Source Sans Pro';
+	font-weight:300;
+}
+
+        /*  Support Page Right Area  */
+
+#support_release {
+	display:none;
+}
+
+#support_contact{
+	display:none;
+}
+
+.support_divider{
+	height:2px;
+	width:532px;
+    margin-left:82px;
+    border-top:2px solid #7694b7;
+}
+
+.support_download_button{
+	background-image: url("../images/support/Download_button.png");
+	background-repeat: no-repeat;
+	height:31px;
+    margin-top: -10px;	
+    cursor: pointer;
+}
+
+        /*  Support Page Scroll Area  */
+
+.support_right .scrollableContainer {
+    width:550px;
+    height:390px;
+    position: relative;
+    overflow: hidden;
+    margin-left:82px;
+	white-space:nowrap;
+	color: #7694b7;
+	padding-top:30px;
+}
+
+.support_right .scrollableContainer .headerSpacer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width:532px;  
+	border:0;
+    border-bottom: 2px solid #7694b7;
+    height: 30px;
+}
+
+.support_right .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 5;
+    right: 250px;
+    cursor: pointer;
+}
+.support_right .scrollableContainer th .orderWrapper .order {
+    font-size: 8pt;
+    color: #BDBDBD;
+}
+.support_right .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}
+
+.support_right .scrollArea {
+    height: 93%;
+    overflow-x: auto;
+    overflow-y: auto;
+	margin-top:18px;
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned headers within 
+    -webkit-overflow-scrolling: touch;  */
+}
+
+.support_right .scrollArea table {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 532px;
+    border: none;
+    margin:0;
+	border-collapse: collapse;	
+}
+
+.support_right .scrollArea table th {
+    padding: 0 !important;
+    border: none !important;
+	font-size: 15px;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+}
+
+.support_right .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    padding-bottom:6px;	   
+}
+
+.support_right .scrollArea table th .box {
+    padding: 0;
+    padding-right: 0px;    /*  order icon width*/
+}
+
+/*  to hack fix firefox border issue    */
+@-moz-document url-prefix() {
+    .support_right .scrollArea table th .box{
+        border-left: none;
+    }
+}
+
+.support_right .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.support_right .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+
+.support_right .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+
+.support_right .scrollArea table tbody tr {
+    border-left: none;
+    height:55px;
+}
+
+.support_right .table-striped > tbody > tr:nth-child(odd) >td{
+	background-color:white;
+}
+
+.support_right .scrollArea table tbody tr td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border:none;
+    padding:17px 0;
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+    font-size:14px;
+    white-space:nowrap;
+}
+
+.support_right .scrollableContainer .scaler {
+    position: relative;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.support_right .scrollableContainer th .resize-rod {
+    position: relative;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 4px;
+    height: 100%;
+}
+
+.support_right .scrollable-resizing .scrollableContainer {
+    cursor: col-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+        /*  Support Page Right Area - Contact Us */
+
+.support_contact{
+	margin-left:82px;
+	
+}
+
+.support_contact h3{
+	margin:0;
+	margin-bottom:10px;
+	font-weight:600;
+}
+.support_contact a{
+	color:red;
+	cursor: pointer;
+}
+.support_contact p{
+	margin:0;
+	font-weight:400;
+}
+
+.support_contact .contact_info{
+	margin:20px 0;
+}
+
+
+        /*  Support Page Right Area - Release Notes */
+        
+.support_release .scrollableContainer {
+	width:650px;
+	height:440px;
+	
+}
+
+.support_release .scrollableContainer .headerSpacer{
+	width:632px;	
+}
+
+.support_release .scrollArea table {
+    width: 632px;
+}
+.support_release .scrollArea table tbody tr td {
+    border-bottom: 2px solid #7694b7;
+    white-space:normal;
+}
+
+
+        /*  Support Page Right Area - What is onTap */
+
+.support_onpoint{
+	margin-left:82px;
+	width:700px;
+	height:500px;
+	margin-top: -25px;
+	display: none;
+}
+
+.support_onpoint h3{
+	margin:0;
+	margin-bottom:10px;
+	font-weight:600;
+}
+.support_onpoint a{
+	color:red;
+}
+.support_onpoint p{
+	margin:0;
+	font-weight:400;
+}
+
+.support_onpoint .contact_info{
+	margin:20px 0;
+}
+
+
+
+
+
+
+
+

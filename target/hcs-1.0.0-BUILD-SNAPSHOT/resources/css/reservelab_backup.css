@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+
+.res_lab_grey_container {
+	background-image: url("../images/reservelab_backup/transparent_grey_background.png");
+	background-repeat: no-repeat;
+	width: 1028px;
+	height: 1100px;
+	display: block;
+	float: left;
+}
+.res_lab_backup_container {
+	background-image: url("../images/reservelab_backup/modal_screen.png");
+	background-repeat: no-repeat;
+	width: 961px;
+	height: 724px;
+	display: block;
+	float: left;
+	margin-left: 483px;
+	margin-top: 150px;
+}
+.res_lab_top_panel {
+	width: 961px;
+	height: 622px;
+	display: block;
+	float: left;
+}
+.res_lab_left_panel {
+	width: 719px;
+	height: 622px;
+	display: block;
+	float: left;
+}
+.res_lab_backups_grey_box {
+	background-image: url("../images/reservelab_backup/backups_grey_box.png");
+	background-repeat: no-repeat;
+	width: 681px;
+	height: 259px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+#popup_backup_img .backup_right_panel {
+	width: 231px;
+	height: 623px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+.res_lab_bottom_panel {
+	background-image: url("../images/reservelab_backup/bottom_panel.png");
+	background-repeat: no-repeat;
+	width: 962px;
+	height: 103px;
+	display: block;
+	float: left;
+}
+.retrieve_btn {
+   	background-image: url('../images/reservelab_backup/retrieve_button.png'); 
+   	background-repeat: no-repeat;
+   	background-position: center center;
+   	cursor:pointer;
+   	width:62px;
+   	height:30px;
+}
+.res_lab_grey_bar {
+	background-image: url('../images/reservelab_backup/grey_bar.png'); 
+	background-repeat: no-repeat;
+	width: 656px;
+}
+
+.res_lab_blue_selected_bar {
+	background-image: url('../images/reservelab_backup/blue_selected_bar.png'); 
+	background-repeat: no-repeat;
+}
+.res_lab_heading {
+	font-family: 'Source Sans Pro'; 
+	font-weight: 600; 
+	font-size: 18px; 
+	color: rgb(111,111,111); 
+	padding: 40px 0px 20px 20px;
+}
+
+   #popup_backup_img .res_lab_left_panel table {
+   	display: block;
+   	font-family: 'Source Sans Pro';
+   	font-weight: 600;
+   	font-size: 14px; 
+   	color: rgb(162, 162, 162);
+   	border-collapse: separate;
+    border-spacing: 0 16px;
+    float:left;
+    width:100%; 
+    padding-right:2px;
+    table-layout: fixed
+   }
+   
+   #popup_backup_img .res_lab_left_panel table td{
+ 	text-align: left; 
+ 	white-space: nowrap;  
+ 	padding:4px 0px 0px 0px;
+   }
+	#popup_backup_img .test-container .scrollableContainer .headerSpacer {
+	border-width: 0 0 0px;  
+	}
+	#popup_backup_img .test-container .scrollArea {
+	    border: 2px solid #d5d5d5;
+	    height: 330px;
+	}
+	
+	#popup_backup_img .test-container .scrollableContainer table tr td {
+		line-height: 25px;
+	}
+    #popup_backup_img  #backup_table td span{
+      	white-space: nowrap;
+      }

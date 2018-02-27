@@ -1,0 +1,363 @@
+@CHARSET "ISO-8859-1";
+
+.terminationResourcesBlock {   
+ 	padding-left:10px;
+ 	float:left;
+ 	width:550px;
+ 	height:500px;
+ 	outline:1px solid #7694b7;
+} 
+
+.terminationResourcesBlock .th-inner{
+	width: 100px!important;
+}
+
+.buttonsDiv .up{
+	width: 40px;
+	background-image:url("../images/up.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+.buttonsDiv .down{
+	width: 65px;
+	background-image:url("../images/down.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+.buttonsDiv .selectAll{
+	width: 95px;
+	background-image:url("../images/selectAll.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+.buttonsDiv .de-selectAll{
+	width: 115px;
+	background-image:url("../images/de-selectAll.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+.buttonsDiv .commentAction{
+	width: 90px;
+	background-image:url("../images/comment.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+.buttonsDiv .deleteActions{
+	width: 65px;
+	background-image:url("../images/deleteActions.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+
+.runResult{
+	width: 55px;
+	background-image:url("../images/runResult.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+}
+
+#comment_box_modal .commentHeading{
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	font-size: 16px;
+	color: #1414a4;
+	padding-left: 10px;
+}
+
+#comment_box_modal .comment_box_input{
+	height: 50px;
+	width: 300px;
+	margin-left: 30px;
+	margin-top: 10px;
+	color: #818181;
+}
+
+#comment_box_modal .addComment{
+	width: 55px;
+	background-image:url("../images/add.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+	margin-top: 10px;
+}
+
+#comment_box_modal .cancelComment{
+	width: 70px;
+	background-image:url("../images/cancel.png");
+	background-repeat: no-repeat;
+	height: 23px;	
+	border : 0px;
+	background-color: transparent;
+	margin-top: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+/*Entered Actions container*/  
+#terminationResources{
+	padding-left:2px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+
+ /*Entered Actions table properties*/
+.terminationResources_inner_table{
+	margin-left: 0px;
+	padding-top:0px;
+}
+
+.terminationResources_inner_table_body{
+	border-collapse: collapse; 
+	margin-left: 0px;
+	margin-right:0px;
+	width: 90%;
+}
+
+.terminationResources_table_th{
+	border-bottom: 1px solid #818181;
+	font-family: 'Source Sans Pro';
+	font-weight:600;
+	font-size: 14px;
+	color: #203c66;
+	line-height: 18px;
+	padding-bottom: 10px;
+	text-align: center;
+	cursor: default;
+}
+
+.terminationResources_table_td{
+	font-family: 'Source Sans Pro';
+	font-weight:400;
+	/* font-family: 'Source Sans Pro-Regular'; */
+	font-size: 14px;
+	color: #203c66;
+	line-height: 25px;
+	cursor: default;
+}
+
+.terminationResources_inner_table tbody tr:nth-child(1) td {
+	/* padding-top: 20px;
+	padding-bottom: 20px; */	
+}
+
+.terminationResources_inner_table .borderless_tr td{
+	/*line-height: 35px;*/
+	line-height: 20px !important;
+}
+
+/* 
+-----------------------------------------
+	Scrollable related CSS 
+------------------------------------------
+*/
+
+.terminationResourcesBlock .scrollableContainer {
+    height: 480px;
+    position: relative;
+    padding-top: 30px;
+    overflow: hidden;
+    width:525px;
+}
+
+.terminationResourcesBlock .scrollableContainer .headerSpacer {
+	/*    border: 1px solid #d5d5d5;*/
+    border:1px solid #7694b7;
+	border-left-width: 0;
+ 	border-right-width: 0;
+ 	border-top-width: 0;
+	border-bottom-width:2px;
+   
+ /*   border-bottom-color: #bbb;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    right: 0;
+    left: 0; */
+}
+
+.terminationResourcesBlock .scrollableContainer th .orderWrapper {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    cursor: pointer;
+}
+
+.terminationResourcesBlock .scrollableContainer th .orderWrapper .order {
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.terminationResourcesBlock .scrollableContainer th .orderWrapper .active {
+    color: #464646;
+}
+
+.terminationResourcesBlock th:nth-child(2) .orderWrapper {
+	top :12px;
+}
+
+.terminationResourcesBlock th:nth-child(4) .orderWrapper {
+	top :13px;
+	right:7.5px;
+}
+
+.terminationResourcesBlock .scrollArea {
+	margin-top:0px;
+    height: 445px;
+    overflow-x: auto;
+    overflow-y: auto;
+ /*   border: 1px solid #d5d5d5; */
+    /*  the implementation of this is still quite buggy; specifically, it doesn't like the 
+        absolutely positioned heade	rs within 
+    -webkit-overflow-scrolling: touch;  */
+}
+
+.terminationResourcesBlock .scrollArea table {
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-bottom: 0;
+    width:515px !important;
+    /*width: 100%;*/
+    border: none;
+    margin-left: 2px;
+    margin-top: 0px;
+    border-collapse: separate;	
+	border-spacing: 0 10px;
+    /*border-collapse: separate;*/
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.terminationResourcesBlock .scrollArea table th {
+    padding: 0 !important;
+    border: none !important;
+    min-width: 20px;
+}
+
+.terminationResourcesBlock .scrollArea table .th-inner {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    height: 20px !important;
+    line-height: 20px !important;
+}
+
+.terminationResourcesBlock .scrollArea table th .box {
+ /*   padding: 0 8px;
+    padding-right: 11px;    /*  order icon width*/
+ /*   border-left: 1px solid #ddd; */
+}
+
+/*  to hack fix firefox border issue    */
+@-moz-document url-prefix() {
+    .scrollArea table th .box{
+    /*    border-right: 1px solid #ddd; */
+        border-left: none;
+    }
+}
+
+.terminationResourcesBlock .scrollArea table .th-inner .ng-scope {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.terminationResourcesBlock .scrollArea table tr th:first-child th .box {
+    border-left: none;
+}
+
+.terminationResourcesBlock .scrollArea table .th-inner.condensed {
+    padding: 0 3px;
+}
+
+.terminationResourcesBlock .scrollArea table tbody tr td:first-child {
+    border-left: none;
+}
+
+.terminationResourcesBlock .scrollArea table tbody tr td:last-child {
+    border-right: none;
+}
+
+.terminationResourcesBlock .scrollArea table tbody tr:first-child td {
+    border-top: none;
+}
+
+.terminationResourcesBlock .scrollArea table tbody tr:last-child td {
+  /*  border-bottom: 2px solid #ddd; */
+}
+
+.terminationResourcesBlock .scrollArea table tbody tr td {
+ /*   border-bottom: 1px solid #ddd; */
+  	white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.terminationResourcesBlock .scrollableContainer .scaler {
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 100%;
+    background-color: #CFCFCF;
+}
+
+.terminationResourcesBlock .scrollableContainer th .resize-rod {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: col-resize;
+    width: 4px;
+    height: 100%;
+}
+
+.terminationResourcesBlock .scrollable-resizing .scrollableContainer {
+    cursor: col-resize;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.terminationResourcesBlock .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #E3E9F0 !important;
+}
+
+#clearAssigned{
+	float: right;
+	width: 120px;
+	height: 25px;
+	background-image: url("../../images/projectCreation/clear_assigned.png");
+	background-repeat: no-repeat; 
+	background-color: transparent;	
+    cursor: pointer;
+    border: 0;
+    margin-right: 11px;
+}

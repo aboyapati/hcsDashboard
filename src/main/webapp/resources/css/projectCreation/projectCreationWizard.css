@@ -1,0 +1,98 @@
+#wizard select, #fixed_wizard select{
+	-webkit-appearance: menulist !important;
+	-moz-appearance: menulist !important;
+}
+
+th {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+td {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/*----------Footer-----------*/
+
+button:focus {outline:0;}
+
+
+.blockUI{
+	border : 0px !important;
+}
+
+.blockPage{
+	background-color: transparent !important;
+}
+
+.remove_icon{
+	background-image: url("../../images/projectCreation/remove icon.png");
+	background-repeat: no-repeat; 	
+	width:15px;
+	height:15px;
+    margin-left: 5px;
+    margin-top: 5px;
+    cursor: pointer;	
+}
+
+.details{
+	width:300px;
+	font-weight: 600;
+    color: #203c66;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.assignTerm{
+	background-image: url("../../images/projectCreation/assign_default.png");
+	background-repeat: no-repeat; 	
+	width:57px;
+	height:20px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+.assignTerm[disabled], .assignTerm:disabled{
+	background-image: url("../../images/projectCreation/assign_disabled.png");
+	background-repeat: no-repeat; 	
+	width:57px;
+	height:20px;
+    cursor: default;
+    border: 0;
+    background-color: transparent;
+}
+
+.search_filter{
+	background-image: url("../../images/projectCreation/search_filter.png");
+	background-repeat: no-repeat; 	
+	width:120px;
+	height:25px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    float: right;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+.clear_filter{
+	background-image: url("../../images/projectCreation/clear_filter.png");
+	background-repeat: no-repeat; 	
+	width:120px;
+	height:25px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;	
+    float: right;
+    margin-top: 8px;
+    margin-right: 7px;
+}

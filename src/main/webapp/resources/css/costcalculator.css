@@ -1,0 +1,351 @@
+.cost_calculator_header{
+	margin:20px 0 45px 40px;
+	text-align: left;
+    color: #7694b7;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.cost_calculator_body{
+	margin-left:75px;
+	margin-bottom:26px;
+	height:522px;
+	font-family: 'Source Sans Pro';	
+}
+
+.estimators{
+	height:92%;
+	width:895px;
+	overflow-y:scroll;
+}
+.estimator_header{
+	color: #7694b7;
+	font-weight: 600;
+    font-size: 18px;
+}
+
+.estimator_box{
+	width:833px;
+	min-height:147px;
+	margin-top:9px;
+	margin-bottom:45px;
+	padding: 8px 12px 0 7px;
+	border:1px solid #d5d5d5;
+	
+}
+.onboarding_cost_box{
+	background-image: url("../images/costcalculator/Onboarding Cost_box.png");
+	background-repeat: no-repeat; 	
+	width:209px;
+	height:96px;
+	margin:9px 26px 45px 0;;
+	padding:8px 7px 9px 7px;
+	float:left;
+	
+}
+
+.consulting_cost_box{
+	background-image: url("../images/costcalculator/consulting hours cost_box.png");
+	background-repeat: no-repeat; 	
+	margin-top:9px;
+	padding:8px 7px 9px 7px;
+	width:313px;
+	height:97px;
+	float:left
+}
+.cost_calculator_footer{
+
+	margin-left:79px;
+	height:100px;
+	width:833px;
+	
+}
+.cost_calculator_footer .divider{
+	background-image: url("../images/costcalculator/divider.png");
+	background-repeat: no-repeat; 	
+	height:2px;
+}
+.cost_calculator_footer p{
+	float:right;
+	width:170px;
+	margin-right:15px;
+	line-height:40px;
+	margin-top:30px;
+	color: #7694b7;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 16px;
+	
+}
+
+.cost_calculator_footer .exit_button{
+	background-image: url("../images/costcalculator/exit button.png");
+	background-repeat: no-repeat; 
+	float:left;
+	border:0;
+	padding:0;
+	outline:0;
+	background-color:transparent;
+	margin-top:30px;
+	width:92px;
+	height:41px;	
+	cursor: pointer;
+}
+
+
+/*----------------------Estimator Table--------------*/
+.estimators table{
+	color: rgb(154,154,154);
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    table-layout: fixed;
+}
+.estimators .table th{
+	border:0;
+	font-weight: 600;
+	padding: 7px 3px;
+	cursor:default;
+	line-height:24px;
+}
+
+.estimators .table th p{
+margin:0 0 0 8px;
+}
+
+
+.estimators .table td{
+	border:0;
+	padding:0;
+	line-height:44px;
+	height:44px;
+	font-weight: 400;
+	vertical-align: middle;
+}
+.estimators .table-striped>tbody>tr:nth-of-type(odd){
+	background: #E3E9F0;
+}
+.estimators .vendor{
+	background-image: url("../images/costcalculator/selection_input box.png");
+	background-repeat: no-repeat; 	
+	width:179px;
+	height:38px;
+
+}
+.estimators input{
+	float:left;
+	background: transparent;
+	border: 0px;
+	width:150px;
+	line-height:36px;
+	height:36px;
+	padding: 1px 14px;
+	color: rgb(154,154,154);
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+
+.estimators .list_icon{
+	background-image: url("../images/costcalculator/access list_icon.png");
+	background-repeat: no-repeat; 	
+	float:right;
+	margin-right:12px;
+	margin-top:11px;
+	width:13px;
+	height:13px;	
+	cursor:pointer;
+}
+.estimators .basic_equipment{
+	background-image: url("../images/costcalculator/selection_input box.png");
+	background-repeat: no-repeat; 	
+	width:179px;	
+	height:38px;
+
+}
+
+.estimators .spinner_control{
+	background-image: url("../images/costcalculator/increase_decrease control_button.png");
+	background-repeat: no-repeat; 	
+	width:68px;
+	height:36px;
+}
+.estimators .spinner_control input{
+	background-image: url("../images/costcalculator/increase_decrease control_button.png");
+	background-repeat: no-repeat; 	
+	height:36px;
+	width:65px;
+	padding:0px 10px;	
+	margin:0;
+}
+.estimators .onboarding_input{
+	background-image: url("../images/costcalculator/Onboarding Cost_input box.png");
+	background-repeat: no-repeat; 	
+	width:81px;
+	height:38px;	
+}
+.estimators .onboarding_input input{
+	width:81px;
+}
+.estimators .add_icon{
+	background-image: url("../images/costcalculator/add icon.png");
+	background-repeat: no-repeat; 	
+	width:15px;
+	height:15px;
+	margin-left: 16px;
+    margin-right: 22px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.estimators .remove_icon{
+	background-image: url("../images/costcalculator/remove icon.png");
+	background-repeat: no-repeat; 	
+	width:15px;
+	height:15px;
+    margin-left: 16px;
+    margin-right: 22px;
+    cursor: pointer;	
+}
+.estimators .line_cost{
+	white-space: nowrap;
+	max-width:82px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	
+}
+.estimators .line_cost:HOVER{
+	overflow:visible;	
+}
+.estimators .onboarding_checkbox{
+	background-image: url("../images/costcalculator/check box_default.png");
+	background-repeat: no-repeat; 
+	width:24px;
+	height:24px;
+	margin:0 0 0 2px; 
+	cursor:pointer;
+}
+.estimators .onboarding_checkbox.selected{
+	background-image: url("../images/costcalculator/check box_checked.png");
+	background-repeat: no-repeat; 
+}
+
+.estimators .ui-spinner{
+	border:none;
+}
+.estimators .ui-spinner a.ui-spinner-button{
+	border:none;
+}
+.estimators .ui-spinner-button{
+	height:10px;
+	border:0;
+}
+
+.estimators .ui-spinner-up {
+    top: 4px;
+}
+
+.estimators .ui-spinner-down {
+    bottom:4px;
+}
+
+
+
+/*----------------------Estimator Modals--------------*/
+
+
+.estimator_modal{
+	padding:26px 17px 20px 30px;
+	background-image: url("../images/costcalculator/Product_pop-up_box.png");
+	background-repeat: no-repeat; 
+	margin-left:-1px;
+	margin-top:-1px;
+	width:307px;
+	height:464px;	
+	color: #7694b7;
+    font-family: 'Source Sans Pro';
+}
+
+#estimator_equipment_modal{
+	background-image: url("../images/costcalculator/basic Equipment pop-up_box.png");
+	background-repeat: no-repeat; 
+	width:330px;	
+	
+}
+
+.estimator_modal h3{
+	line-height:16px;
+	font-weight: 600;
+    font-size: 16px;
+    margin:20px 18px;
+}
+.estimator_modal ul{
+	height:282px;
+	padding:0;
+	overflow-y:auto;
+}
+.estimator_modal li{
+	float:left;
+	margin:2px 0;
+	padding-left:20px;
+	font-family: "Source Sans Pro";
+	font-weight:600;
+	font-size:16px;	
+	color:rgb(154,154,154);
+	clear:both;
+	cursor: pointer;
+	line-height:40px;
+	width:260px;
+	display:inline;
+}
+
+.estimator_modal li.selected{
+
+	border: 1px solid skyblue;	
+	border-radius:8px;
+}
+#estimator_vendor_modal li{
+	color:skyblue;		
+	display: inline;
+}
+.estimator_modal .equip_name{
+	float:left;
+	margin:0;
+	width:154px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.estimator_modal .equip_cost{
+	float:left;
+	margin:0;
+	width:80px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.estimator_modal_footer{
+	height:8px;
+}
+.estimator_modal_footer input{
+	border:0;
+	padding:0;
+	outline:0;
+	background-color:transparent;
+	margin-top:20px;
+	width:92px;
+	height:41px;	
+	cursor: pointer;
+}
+.estimator_modal_footer .exit_button{
+	background-image: url("../images/costcalculator/exit button.png");
+	background-repeat: no-repeat; 
+	float:left;
+}
+
+.estimator_modal_footer .confirm_button{
+	background-image: url("../images/costcalculator/confirm.png");
+	background-repeat: no-repeat; 
+	margin-right:13px;
+	float:right;
+	
+}
+

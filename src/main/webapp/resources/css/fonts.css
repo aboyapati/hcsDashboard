@@ -1,0 +1,73 @@
+@CHARSET "UTF-8";
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-Black'), url("../fonts/SourceSansPro-Black.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-BlackIt'), url("../fonts/SourceSansPro-BlackIt.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight:bold;
+	src: local('SourceSansPro-Bold'), url("../fonts/SourceSansPro-Bold.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-BoldIt'), url("../fonts/SourceSansPro-BoldIt.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-ExtraLight'), url("../fonts/SourceSansPro-ExtraLight.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-ExtraLightIt'), url("../fonts/SourceSansPro-ExtraLightIt.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-It'), url("../fonts/SourceSansPro-It.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-Light'), url("../fonts/SourceSansPro-Light.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-LightIt'), url("../fonts/SourceSansPro-LightIt.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-Regular'), url("../fonts/SourceSansPro-Regular.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-Semibold'), url("../fonts/SourceSansPro-Semibold.otf") format('truetype');
+}
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	src: local('SourceSansPro-SemiboldIt'), url("../fonts/SourceSansPro-SemiboldIt.otf") format('truetype');
+}

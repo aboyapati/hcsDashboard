@@ -1,0 +1,195 @@
+/* Icon for epam Add PBX button*/
+.add_PBX_icon{
+	background-image: url("../../images/epam/addPBX_default.png");
+	height: 35px;
+	width: 145px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.add_PBX_icon:HOVER {
+	background-image: url("../../images/epam/addPBX_hover.png");
+	cursor: pointer;
+}
+
+/* Icon for epam Add Resource button*/
+.add_Resource_icon{
+	background-image: url("../../images/epam/addResource_default.png");
+	height: 35px;
+	width: 180px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+}
+
+.add_Resource_icon:HOVER {
+	background-image: url("../../images/epam/addResource_hover.png");
+	cursor: pointer;
+}
+/* Icon for epam Create lab button*/
+.create_Lab_icon{
+	background-image: url("../../images/epam/admin button.png");
+	height: 42px;
+	width: 90px;
+	float: right;
+	margin-right: 65px;
+}
+
+/* .create_Lab_icon:HOVER {
+	background-image: url("../../images/epam/admin_hover.png");
+	cursor: pointer;
+}
+ */
+.editconnection_buttons .add_save_button{
+	background-image: url("../../images/add_connection/save button.png");
+	background-repeat: no-repeat;
+	margin-left:25px;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.editconnection_buttons .add_cancel_button{
+	background-image: url("../../images/add_connection/cancel button.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 90px;
+    height: 41px;
+    margin-top: 17px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.editconnection_buttons .next_button {
+    background-image: url(../../images/add_connection/next_button.png);
+    background-repeat: no-repeat;
+    margin-left: 25px;
+    float: left;
+    width: 90px;
+    height: 41px;
+    margin-top: 17px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.editconnection_buttons .view_cancel_button{
+	background-image: url("../../images/add_connection/cancel button.png");
+    background-repeat: no-repeat;
+    float: left;
+    width: 90px;
+    height: 41px;
+    margin-top: 17px;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+}
+
+/* Icon for epam create resourcelist button*/
+.create_ResourceList_icon{
+	background-image: url("../../images/epam/createResourceList_default.png");
+	height: 35px;
+	width: 241px;
+	float: right;
+	margin-right: 65px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius:3px;
+	
+}
+
+.create_ResourceList_icon:HOVER {
+	background-image: url("../../images/epam/createResourceList_hover.png");
+	cursor: pointer;
+}
+
+/* Icon for epam save as button*/
+.saveAs_icon{
+	background-image: url("../../images/epam/saveAs_default.png");
+	height: 35px;
+	width: 158px;
+	float: right;
+	margin-right: 10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius:3px;
+	
+}
+
+.saveAs_icon:HOVER {
+	background-image: url("../../images/epam/saveAs_hover.png");
+	cursor: pointer;
+}
+
+/* Icon for epam save button*/
+.save_icon{
+	background-image: url("../../images/epam/save_default.png");
+	height: 35px;
+	width: 135px;
+	float: right;
+	margin-right: 10px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius:3px;
+	
+}
+
+.save_icon:HOVER {
+	background-image: url("../../images/epam/save_hover.png");
+	cursor: pointer;
+}
+
+.add_Document_icon{
+	background-image: url("../../images/epam/addDocument_default.png");
+	height: 35px;
+	width: 182px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+.add_Document_icon:HOVER {
+	background-image: url("../../images/epam/addDocument_hover.png");
+	cursor: pointer;
+}
+.editconnection_buttons .project_run_button{
+	background-image: url("../../images/add_connection/button_run.png");
+	background-repeat: no-repeat;
+	margin-left:25px;
+	float: left;
+    width:90px;
+    height: 41px;
+    margin-top:17px;
+	position:relative;
+	bottom:0;	
+	cursor: pointer;
+	background-color: transparent;
+}	
+.add_Version_icon{
+	background-image: url("../../images/epam/addVersion_default.png");
+	height: 35px;
+	width: 155px;
+	float: right;
+	margin-right: 25px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-repeat: no-repeat;
+	
+}
+
+.add_Version_icon:HOVER {
+	background-image: url("../../images/epam/addVersion_hover.png");
+	cursor: pointer;
+}
+}

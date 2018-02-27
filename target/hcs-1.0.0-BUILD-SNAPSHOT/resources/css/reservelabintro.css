@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+
+.full_transparent_background{
+	background-image: url("../images/reservelab_intro/transparent grey backgrnd.png");
+	background-repeat: no-repeat;
+	width:1026px;
+	height: 100%;
+	display: block;
+	float: left;
+	
+}
+
+.outline_box{
+
+	/* background-image: url("../images/reservelab_intro/modal screen.png"); */
+	background-repeat: no-repeat;
+	width:960px;
+	height:723px;
+	position:absolute;
+	margin-left:1px;
+}
+
+.reserve_intro_heading{
+	display:block;
+	text-align: center;
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
+	color:rgb(111,111,111);
+	margin-top: 157px;
+	font-size: 18px;
+}
+
+.reserve_intro_text{
+	display:block;
+	text-align: center; 
+	font-family: 'Source Sans Pro';
+	font-weight: 400;
+	color:rgb(154,154,154);
+	margin-top:54px;
+	margin-left:150px;
+	font-size: 16px;
+	width:700px;
+}
+
+.reserve_intro_divider{
+	background-image: url("../images/reservelab_intro/divider.png");
+    background-repeat: no-repeat;
+	border:1px solid #C6C6C6;
+	/*border-bottom-width:2px;*/
+	display:block;
+    width: 852px;
+    margin:0 auto;
+}
+
+.using_product{
+	background-image: url("../images/reservelab_intro/Products_default button.png");
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 45px;
+	margin:45px auto;
+}
+.using_product:HOVER {
+	background-image: url("../images/reservelab_intro/Products_hover button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.using_catalog{
+	background-image: url("../images/reservelab_intro/Catalog_default button.png");
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 45px;
+    margin:45px auto;
+	
+}
+.using_catalog:HOVER {
+	background-image: url("../images/reservelab_intro/Catalog_hoverbutton.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.using_backupimage{
+	background-image: url("../images/reservelab_intro/Backup Images_default button.png");
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 45px;
+    margin:45px auto;
+	
+}
+.using_backupimage:HOVER {
+	background-image: url("../images/reservelab_intro/Backup Images_hover button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.using_text{
+	display: block;
+	float: left;
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	font-weight: 400;
+	color:rgb(154,154,154);
+	text-align: center;
+	width:250px;
+	margin-left:15px;
+	margin-top: 30px;
+}
+.using_text .content{
+width:230px; margin:0 auto;
+}
+
+
+.reserve_intro_footer{
+    position:absolute;
+    bottom:0;
+    height:228px;	
+    width:100%;
+}
+.reserve_intro_exit{
+	background-image: url("../images/reservelab_intro/exit button.png");
+    background-repeat: no-repeat;
+    width:95px;
+    height: 40px;
+    margin-top: 49px;
+    margin-left: 73px;
+    cursor: pointer;
+	
+}
+
+.more_labs_content{
+	display: block;
+	font-family: 'Source Sans Pro';
+	font-size: 14px;
+	font-weight: 400;
+	color:rgb(154,154,154);
+	text-align: center;
+	height:70px;
+	width:450px;
+
+	margin: 30px 0 15px 168px;
+}
+.more_labs{
+	background-image: url("../images/reservelab_intro/CustomizeLab_default button.png");
+    background-repeat: no-repeat;
+    width: 105px;
+    height: 45px;
+    float:left;   
+    line-height: 16px;
+    padding-top: 5px;
+
+}
+
+.more_labs:HOVER {
+	background-image: url("../images/reservelab_intro/CustomizeLab_hover button.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.more_labs_text{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
